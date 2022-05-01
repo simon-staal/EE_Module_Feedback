@@ -1,5 +1,5 @@
 # EIE 3<sup>rd</sup> Year Modules <!-- omit in toc -->
-This document is a comprehensive guide aiming to make it easier for EIE (and to some extent EEE) students to choose their modules for 3<sup>rd</sup> year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](). If you'd like to add your
+This document is a comprehensive guide aiming to make it easier for EIE (and to some extent EEE) students to choose their modules for 3<sup>rd</sup> year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
 
 # Table of Contents <!-- omit in toc -->
 - [General Advice](#general-advice)
@@ -43,6 +43,7 @@ This document is a comprehensive guide aiming to make it easier for EIE (and to 
 - [Spring Term](#spring-term)
   - [EE Modules](#ee-modules)
     - [Digital System Design](#digital-system-design)
+      - [2020/21](#202021-8)
     - [Advanced Signal Processing](#advanced-signal-processing)
     - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
     - [High Level Programming](#high-level-programming)
@@ -64,7 +65,7 @@ This document is a comprehensive guide aiming to make it easier for EIE (and to 
 
 # General Advice
 ## 2021/22
-3rd year is a lot of work, more than 2nd year (although I took an extra module so take that with a grain of salt). You have 7 actual modules + 1 horizons module (which may or may not be significant work depending on which one you got). Having tried 4 modules in both Autumn and Spring (not counting my Horizons module which was a meme - Project Management bless up), I would 100% recommend taking 4 in Autumn, the EE CW in spring is a huge time sink if you want to get very high marks. Combining that with revising for DoC exams at the end of term makes 4 module Spring even worse than 2nd year term 2. With that in mind, get your applications for 6 month placements done AS SOON AS POSSIBLE. Depending on what you're looking for, you'll be spending a significant number of hours a week doing it in first term. If you can get it done in the first month of term (or even before term starts), you'll have a lot more time to focus on your modules. That said, take the time to try and get something you want, getting a good placement is more important than your modules (imo). Overall though, you really have the opportunity to focus into modules you're really interested in. Take the time to consider what fields you want to work in as a graduate, and what modules help you get there. - Simon
+3rd year is a lot of work, more than 2nd year in my opinion (although I took an extra module so take that with a grain of salt). You have 7 actual modules + 1 horizons module (which may or may not be significant work depending on which one you got). Having tried 4 modules in both Autumn and Spring (not counting my Horizons module which was 0 effort - Project Management bless up), I would 100% recommend taking 4 in Autumn, the EE CW in spring is a huge time sink if you're looking to get high marks. Combining that with revising for DoC exams at the end of term makes 4 module Spring even worse than 2nd year term 2. With that in mind, 4 modules in Autumn term is still tough. Get your applications for 6 month placements done AS SOON AS POSSIBLE. Depending on what you're looking for, you'll be spending a significant number of hours a week doing it. If you can get it done in the first month of term (or even before term starts), you'll have a lot more time to focus on your modules. That said, take the time to try and get something you want, getting a good placement is more important than your modules (imo). Overall though, you have the opportunity to focus into modules you're really interested in. Take the time to consider what fields you want to work in as a graduate, and what modules help you get there. Despite it being more work, I found the work a lot more interesting, since I was doing modules I actually cared about. Good luck :smile: - Simon
 
 
 Think twice before you choose the modules. It would be a hard time if you choose a mix of
@@ -94,12 +95,13 @@ when possible. - Jaafar
 Here's a quick summary of some important points:
 - Apply to lots of places, expect many rejections
 - Track your applications (I used excel, see uploaded template)
-- Practice hackerrank / leetcode for coding challenges
-- Research the company for non-technical interview prep (what do they do, why do you want to work there)
-- Always ask for feedback
+- Practice hackerrank / leetcode for coding challenges if you're going into software
+- Research the company for non-technical interview prep (what do they do, why do you want to work there, why you'd be a good fit)
+- Always ask for feedback from the interviewers
 - Start early (before term starts)
 - Good luck, try not to get disheartened :)
-Simon 2021/22
+
+You're always welcome to ask me for advice :blush: - Simon 2021/22
 
 
 Ask people in higher years who interned at the companies you’re interested in. They’ll give you interview tips, help you on the CV, tell you exactly what it’s like working at the company as a student interning. Potentially they’ll also refer you in most cases. For software interviews, leetcode is good, but in-person practice is 10 times better in my opinion. Try to get one face-to-face session per week with a friend or someone in a higher year with more technical interview experience. For PM and non-technical interviews, read “Cracking the PM interview”. It provides you with general rules and guidelines and how to structure your answers and guide yourself through the interviewer’s questions. Most recruitment starts in August for tech and trading, start reaching out to recruiters by then. - Jaafar 20/21
@@ -355,9 +357,12 @@ For EIE: DoC students will have an advantage of knowing lambda calculus and func
 # Spring Term
 ## EE Modules
 ### Digital System Design
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60011&s=J3#start)**
+
+#### 2020/21
 
 ### Advanced Signal Processing
+**Imperial Module Page: [here]()**
 ### Real-Time Digital Signal Processing
 ### High Level Programming
 ### Deep Learning
