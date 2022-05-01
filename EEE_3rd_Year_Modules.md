@@ -1,0 +1,267 @@
+TODO GO THROUGH DOCUMENT AND REMOVE EIE PARTS / MERGE IN MISSING CONTENT FROM EIE
+
+# EEE 3<sup>rd</sup> Year Modules <!-- omit in toc -->
+
+# Table of Contents <!-- omit in toc -->
+- [General Advice](#general-advice)
+  - [2021/22](#202122)
+  - [2020/21](#202021)
+- [Industrial Placement / Groupo Project / Individual Projects](#industrial-placement--groupo-project--individual-projects)
+- [Autumn Term](#autumn-term)
+  - [EEE Modules](#eee-modules)
+    - [Communication Systems](#communication-systems)
+      - [2020/21](#202021-1)
+    - [Digital Signal Processing](#digital-signal-processing)
+      - [2020/21](#202021-2)
+    - [Control Engineering](#control-engineering)
+      - [2021/22](#202122-1)
+      - [2020/21](#202021-3)
+    - [Mathematics for Signals and Systems](#mathematics-for-signals-and-systems)
+      - [2021/22](#202122-2)
+      - [2020/21](#202021-4)
+    - [Artificial Intelligence](#artificial-intelligence)
+      - [2021/22](#202122-3)
+    - [Communication Networks](#communication-networks)
+      - [2021/22](#202122-4)
+    - [Machine Learning (EE)](#machine-learning-ee)
+      - [2020/21](#202021-5)
+  - [DoC Modules](#doc-modules)
+    - [Operations Research](#operations-research)
+    - [Advanced Computer Architecture](#advanced-computer-architecture)
+    - [Simulation and Modelling](#simulation-and-modelling)
+    - [Machine Learning (DoC)](#machine-learning-doc)
+    - [Type Systems for Programming Languages](#type-systems-for-programming-languages)
+- [Spring Term](#spring-term)
+  - [EE Modules](#ee-modules)
+    - [Digital System Design](#digital-system-design)
+    - [Advanced Signal Processing](#advanced-signal-processing)
+    - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
+    - [High Level Programming](#high-level-programming)
+    - [Deep Learning](#deep-learning)
+    - [Robotic Manipulation](#robotic-manipulation)
+    - [Managing Engineering Projects](#managing-engineering-projects)
+  - [DoC Modules](#doc-modules-1)
+    - [Graphics](#graphics)
+    - [Computer Vision](#computer-vision)
+    - [Robotics](#robotics)
+    - [Network and Web Security](#network-and-web-security)
+    - [System Performance Engineering](#system-performance-engineering)
+    - [Distributed Algorithms](#distributed-algorithms)
+    - [Advanced Databases](#advanced-databases)
+
+
+# General Advice
+## 2021/22
+3rd year is a lot of work, more than 2nd year (although I took an extra module so take that with a grain of salt). You have 7 actual modules + 1 horizons module (which may or may not be significant work depending on which one you got). Having tried 4 modules in both Autumn and Spring (not counting my Horizons module which was a meme - Project Management bless up), I would 100% recommend taking 4 in Autumn, the EE CW in spring is a huge time sink if you want to get very high marks. Combining that with revising for DoC exams at the end of term makes 4 module Spring even worse than 2nd year term 2. With that in mind, get your applications for 6 month placements done AS SOON AS POSSIBLE. Depending on what you're looking for, you'll be spending a significant number of hours a week doing it in first term. If you can get it done in the first month of term (or even before term starts), you'll have a lot more time to focus on your modules. That said, take the time to try and get something you want, getting a good placement is more important than your modules (imo). Overall though, you really have the opportunity to focus into modules you're really interested in. Take the time to consider what fields you want to work in as a graduate, and what modules help you get there. - Simon
+
+
+Think twice before you choose the modules. It would be a hard time if you choose a mix of
+both eee and doc modules in spring term, as both the exams and deadlines for the coursework
+would be in the same week and you need to spend the revision time doing coursework when the DoC
+students are preparing for the exams. – S
+
+## 2020/21
+In Spring term I think a good balance is 2 EEE modules and 2 DoC modules (assuming your
+split is four modules per term). If you’re doing 3 EEE modules and 1 DoC module... have fun with
+coursework lol – JZ
+
+
+I feel that 3rd year is a time to think about what parts of the course you’re enjoying, and what parts
+you want to focus on going ahead. If you enjoy what you do, you’ll find it a lot easier to cope with the work. Spring term is a test of your ability to prioritise, manage time and divide it well between all the different
+coursework deadlines that you have. If you want to do well, it will require hard work - Aaman
+
+
+BPES: Accounting is the closest to a fair-evaluation module (not random marks on your essays) but it’s
+the most time-consuming. Placements: you really need to prioritize at the beginning of the year how
+much time you are read to spend on interviewing. You’ll get many 1-2 week notice interviews, most of
+which last on average 2.5 hours. This will slow your study pace, so make sure you’re on top of things
+when possible. - Jaafar
+
+# Industrial Placement / Groupo Project / Individual Projects
+
+Here's a quick summary of some important points:
+- Apply to lots of places, expect many rejections
+- Track your applications (I used excel, see uploaded template)
+- Practice hackerrank / leetcode for coding challenges
+- Research the company for non-technical interview prep (what do they do, why do you want to work there)
+- Always ask for feedback
+- Start early (before term starts)
+- Good luck, try not to get disheartened :)
+Simon 2021/22
+
+
+Ask people in higher years who interned at the companies you’re interested in. They’ll give you interview tips, help you on the CV, tell you exactly what it’s like working at the company as a student interning. Potentially they’ll also refer you in most cases. For software interviews, leetcode is good, but in-person practice is 10 times better in my opinion. Try to get one face-to-face session per week with a friend or someone in a higher year with more technical interview experience. For PM and non-technical interviews, read “Cracking the PM interview”. It provides you with general rules and guidelines and how to structure your answers and guide yourself through the interviewer’s questions. Most recruitment starts in August for tech and trading, start reaching out to recruiters by then. - Jaafar 20/21
+
+
+Start applying as early as possible – get your CV/LinkedIn/whatever else ready before term starts and then start applying. The earlier you get your placement sorted out the easier your life will be. Also – you'll probably be rejected by most places. If you’re going for a software role, make sure you practice a lot beforehand as well. - JZ, 2020/21
+
+
+It’s ok to get your application rejected. It happens. And it’s ok if you don’t end up getting a placement. That can also happen. None of this defines you. - Aaman, 2020-21
+
+Be great at one programming language (show dem your projects), have semi-decent grades, demonstrate your communication skills and landing a placement is just an arm-length away. After couple of failures, you would learn what interviewers want to hear and what interviewers don’t want to know about. 2020/21 Z
+
+
+Advice for aspiring SWE candidates targeting placements at big tech/tech in finance – grind leetcode over summer and apply early. Positions fill up early and are highly competitive as you’ll be competing with DoC students too. Brush up on core CS fundamentals (OS, data structures, algorithms) as these get asked frequently too. Take note of groupwork/previous internship experiences that you can bring up during behavioral interviews and prepare well for these too. - Daryl 20/21
+
+
+It’s ok if you get rejected like 1000 times. I promise a load of other people are too. Get in the applications early like September/ August. Try to focus on a few companies you really want and spend the summer practising programming or reading over notes etc to prepare. Then start applying to companies you may not have considered. Update your LinkedIn!! You can get recruited off it. Also ask some of the older years. It also helps if you have a spreadsheet of companies to keep organised. Try and focus your applications – I didn’t which was fine in the end but stressful writing a bunch of different field cover letters. Just put yourself out there; don’t hold back on your skills in your CV. Once you do enough applications, you’ll know how to sell yourself so trust the process. If you don’t find anything, the group projects can also get you graduate roles and they’re really fun!! They also help when it comes to graduate applications so either way you don’t “lose”. If you want to go into tech in finance, leetcode and hackerrank are your best friends. Best of Luck !!! - Simi 2020/21
+
+
+Understand yourself better, what careers you want to pursue, how to represent yourself in CV/Cover letter, compare your current skills set to your desire jobs requirement, find areas to improve. – 2019/20
+
+
+Start applying early! Oct is a good time to start applying. – 2019/20
+
+
+Focus on applications - those are more important – 2019/20
+
+
+Apply to a LOT and don't be disheartened by not getting responses. – Yusuf, 2019/20
+
+
+Man just get a placement, like start searching at the beginning of the year. Group project is alright but its no replacement for being paid. - 2019/20
+
+Spend all of October and November applying! Best to have an offer before the end of the year, Then you can really chill out in second term. And Get ready for lots of rejections – Kunal, 2019
+
+
+Go careers fair (if it's not cancelled because of corona), check websites/LinkedIn for applications – Tarik, 2019/20
+
+# Autumn Term
+## EEE Modules
+### Communication Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60007&s=J3#start)** 
+
+#### 2020/21
+Exam is heavily based on the extensive problem sets so get to know them well! It's a very very long and varied course. It really does develop your intuition. Hassle Manikas when you have questions and you will get them answered. Really patient guy. Super passionate about his subject.
+
+
+Really liked the module all in all, and would recommend to anyone interested in Comms. Personally found the content very demanding, mainly due to the sheer volume. There is a lot of stuff. The exam is comparatively straightforward, and if you do and understand all the problem sheet questions, the exam wont be too bad. If you put in the effort, it will pay off. There is also a coursework element to the module over Christmas on MATLAB, which isn't easy but manageable over the break. Manikas is also very good, explaining content well and also answering questions effectively.
+
+This module is highly recommended to anyone interested in Comms. The content is long and can become difficult to understand in the end. The exam is based on the problem sheet questions, so being able to solve these questions is key to scoring well in the exam. There is also a CW assignment over Christmas, which requires a solid understanding of the second part of the module, which has more demanding concepts. Manikas is a good lecturer, who wants to support students and is willing to answer questions, so it’s definitely worth asking him about concepts you do not understand.
+
+### Digital Signal Processing
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60010&s=J3#start)**
+
+#### 2020/21
+Dr. Stathaki's slides are example rich and the exam draws entirely from the maths demonstrated in the slides. However, it's fair to say that this course is more theoretical and mathematical than in previous years.
+
+
+The slides are quite detailed and extensive however the pace of the explanations can sometimes be long winded during the lectures however Dr Stathaki is always happy to help and explain anything if you didn't understand it. The modules is quite theoretical but gives you a good basis of DSP however be ready to commit to doing a lot of theoretical maths to be good at this module. The exam was entirely based on the lecture slides with some extension of concepts.
+
+
+Dr Stathaki’s slides are detailed and contain loads of examples and thorough explanations. The lecturers can be boring because she sometimes devotes too much time to easier concepts, which leads to a slow pace. That said, she always happy to answer questions either in the lecture or via email (she’ll get back to you in 24 hours usually). The exam was quite heavy mathematically, which means you need to practice effectively the math concepts she teaches. You should try to get access to the 2020 exam and to the sample exams she gave us because her style significantly differs from Naylor.
+
+### Control Engineering
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60008&s=J3#start)**
+
+#### 2021/22
+Astolfi is a good lecturer, keeping you engaged in lectures. Lectures are fast-paced but you get used to them, make sure you interrupt for questions if you need to. Astolfi doesn’t reply to questions in email (from my experience at least) and even though I wasn’t in College during exam period and deliberately asked him to help me via email/Teams, he asked me again to come to College, which I didn’t. Ended up answering the questions with friends/after working more on exercises. So make sure if you need help you show up, or pester him, or ask as early as you can, to ensure you get your answers. Resources are primarily the lecture notes (I didn’t use any book or additional resources, and found that notes Astolfi makes during the lecture are much better, and sufficient for the exam, than the actual pre-written lecture notes, which are very mathematical and abstract for no reason in my opinion. So that, along with past papers, should get you ready for exams. Other than that, module is pretty mathematical and the exam is pretty standard (make sure you do most (or all!) of the past papers and you will be legend for the exams). In our case, the exercises at the end of the lecture notes were much harder than the actual exam and the past papers, but still do them to be prepared and avoid any surprise. No coursework for this module, which is good if you want a free Christmas holiday! - Valy (EEE)
+
+#### 2020/21
+I agree with the other comments, the examples at the back of the book are brilliant. The book itself feels overwhelming so glance through it every once in a while and definitely use it for revision. There are some things explained in the book not explicitly covered in the lectures but are still examinable. For example: Dead beat controller/observer. Really useful module overall if picked with maths for signals and systems as they both complement each other a lot! You might have a tough time if you don't pick maths.
+
+
+The book is quite remarkable, but unless you are a comfortable first class student it's very hard going. However, the 30 exercises at the back are brilliant and able practice. This year's exam was exceptionally difficult. Actually, the previous year's was very difficult too. Only take this module if you are ready to commit to it.
+
+
+The book itself is quite daunting however for the content you definitely need Maths or do it in your ownste time. The exam is quite difficult hence only take it if you are committed to the module. The module is generally quite abstract and theoretical however covers a lot of content. So only take the module if you are ready to commit to it hardcore and actually interested in control.
+
+
+Most people here tend to read the book, I prefer watching youtube lectures. Here are some useful
+channels: John Rossiter, megr438, Matthew Wright,
+Jonathan Sprinkle(more about self driving cars with control), MathDoctorBob, MATLAB (for filters), Steve
+Brunton (best one).
+
+Great lecturer, I found the combo of (actually) watching his lectures + reading the notes working. If
+you like the ‘understanding’ part more than the tons of theoritical knowledge you might like this
+course. However if you’re looking for a module where you can just learn stuff by heart maybe pick
+another one. - MG
+
+The module was interesting and I enjoyed being able to pretty much learn from the book but I got
+wrecked by the exam because I didn’t revise enough. You definitely need to put in the work but the
+actual content isn’t too bad. I also had to cram all of maths for signals but it was helpful even for 4th
+year stuff😊 - Simi
+
+### Mathematics for Signals and Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
+
+#### 2021/22
+The module is not hard and it would be a great choice if you just want to get some good grades. The content is almost repeating.
+
+
+Pretty standard but pretty neat module, if you are EIE/EEE, your 2nd year Mathematics (Mathematics for Engineers II) module literally has the copied and pasted notes from this module, so overlap is an understatement, this is the linear algebra part of your course copied over word for word, no exaggeration, (SVD, Fundemental Subspaces, Diagonalization, Eigenvalues and Eigenvectors, etc) so if you banged that out in 2nd year, this one is a good one to take for some guaranteed marks. The exam varies little year on year but this year we had more curveballs probably due to the online-setting. For any topics where you lack understanding use the 2nd year notes it will help more, or use the Gil Strang youtube videos. Although as updated advice for those using the new EE course I whole-heartedly just suggest going over your old notes and lectures from 2nd year because that helped me more than actually attending the lectures did. There is a lot of hidden value in this module though because a lot of the concepts you pick up and refine end up being heavily utilised in optimization, as well as ML (particularly with convolutional neural networks), honestly just take it to fill in one of your mandated EE slots if you’re like me and have a preference for the DoC modules. - Aryan
+
+
+Nice professor in my opinion. UTAs/GTAs are really useful too on edStem so this module flowed really
+well. Yeah as Aryan covered above, most of the content is just the same as that in 2nd Year. - Nelson
+
+#### 2020/21
+Get watching those Gil Strang YouTube vids early! That really made all the difference come exam time. There are a lot of shortcuts and tricks with linear algebra. If you try and use the slides alone you will fill a lot more pages and be prone to error.
+
+
+The lectures don't cover much content compared to any other modules so do practice examples a lot. Hence I also suggest to get a linear algebra book to get more detail and learn the tricks of how to do things. The exam was allright in my opinion covers mostly what has been covered and there are quite a few past exam papers. This module is essential to quite a few others.
+
+
+Do watch Gil Strang's lectures before the start of the term. He covers the course quite quickly, so it doesn't leave too much room to understand the material. In addition he tend to be more focused on the application of linear algebra, rather then the math. But this is third year, so there is the expectation that your math is pretty good. In sum do yourself a favour and spend two weeks prior to term watching Gil Strangs, so you can understand his lectures. Also for tls(not covered by Gil strangs) you might consider watching this video on youtube: Pillai "Ax= b, Least Squares (LS) & Total Least Squares (TLS)".
+
+
+As everyone else has probably mentioned, start watching Gilbert Strang’s lecturers before the start of term and get the textbook (borrow it from the library- it has at least 10 copies). Dragotti’s slides do not help you pick up the techniques you need to solve linear algebra problems, because they focus more on applications. The way to do well is to study the techniques on your own using GIlbert’s resources, or anything else you may find useful, and then go over Dragotti’s slides to check understanding and learn how to tackle more application-oriented problems. Dragotti is quite happy to answer questions, so it is worth asking him if you’re stuck with anything.
+
+### Artificial Intelligence
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60004&s=J3#start)**
+
+#### 2021/22
+Where to start? There are definitely some parts of this module that are useful, such as learning Prolog and different search algorithms. That’s pretty much where the good stuff ends. Most of your time will be spent learning about and manipulating logic. The exam was heavily based around Calculus KE – Google it and you won’t find anything on it, and the lecturer himself couldn’t even remember what KE stands for. Most of the content is just so incredibly niche, and the exam so time pressured, that I would really be hesitant to recommend this module. If you are really looking to get into AI/ML, there are better
+modules to take, as others have mentioned.
+
+
+This is a good module, however incredibly badly named. It has more to do with declarative programming, logic & search/optimisation algorithms than “artificial intelligence” as such – I would recommend it as the content was engaging, course materials were good & the U/GTAs were helpful, but make sure you look at
+the materials before you choose it if you can.
+
+
+In my opinion this was a very bad module. The course is very unstructured and there’s not much resources to go off of. In exams you get unnecessarily punished not for pointless things that DO NOT reflect how much you actually know about the content (e.g., making the answer of a question 80 lines/ 3 pages long and if you make a little mistake anywhere in those 80 lines you lose marks only for a small number of marks). I have spent most of my hours trying to contact the lecturer on very unclear topics that he has not properly explained in his lectures or written well about in the slides and sometimes get no response. The tutorials he provides are not complete and you will spend loads of hours doing these tutorials when it is worth a very small amount in the actual exam. You CANNOT do the exam without doing ALOT of past papers because most of the exam are not inside the tutorials. I will promise you it is *NOT* worth it.
+
+
+In my opinion, I would say that this module’s displayed commitment time is highly unrepresentative of the actual time needed to be ‘good’ at this module. A lot of emphasis is placed on labs and tutorials to develop a finer understanding in AI, but ultimately it’s all for nothing because nothing of ultimate relavance was included in the final exam, there was no ‘coursework’ contribution or at least some sort of safety net to compensate for the work we put in, the exam itself included a lot of questions which are super beefed versions of tutorial questions (of which we got the solutions very late for), and lab questions (of which were rather unorganized), coincidentally, one of the larger logic questions in the exam was a specific niche corner of an already rather niche part of the course (iykyk), which was not only barely touched in the lectures except for one pass, but apparently the solution for an associated problem of this type was not even provided, this was also never seen on years of past papers. I spent several pages trying to do one subquestion from that exam, and spent an hour of my time just in doing that almost. The biggest chunk of the logic half of that course has 2 (two) major resources, one being the Professor plugging his own research paper, which is indecipherable on its own, and the other being a rather obscure PDF from an academic who coincidentally was a former student/colleague of the professor, this however constituted 50% of the exam though, which we had barely any prep to study for, and the time I spent which could’ve better been spent on my DoC modules. In my opinion like the above answers postulate, if you want to take a module to get into this area of learning, just do DoC/EE ML and Maths to make your life easier rather than spending time trying to figure out whether you were meant to branch on line 39 of your KE tree or not (and I highly doubt you’ll be asked in a FAANG interview about existential qualifiers, but maybe that’s just me).
+
+
+The first half of the module is interesting and relevant, especially for EEE students that don't have many other opportunities to look at declarative programming, but it quickly devolves afterwards into an extremely specific formulation of automated logic solving that's only really directly relevant to the logic research work the lecturer and his colleagues are currently working on. Furthermore, the exams were badly thought out with immense time pressure. I would only really recommend this module to people who really want to learn about formal mathematical logic techniques and not to people interested in concepts
+such as ML.
+
+### Communication Networks
+**Imperial Module Page: [here]()**
+
+#### 2021/22
+I enjoyed the module although I agree that the notes and teaching are not the best. As an EEE student, I didn’t really know anything about networks, OSI etc. but the content wasn’t intimidating so I ended up becoming really interested in this area. The recommended textbooks are a really good and interesting introduction to comms networks although they are not that helpful for the exam, so make sure you really understand the slides and past papers well (a lot of memorisation). Barria is friendly and happy to answer questions, but his explanations can be chaotic. -Kasia
+
+
+### Machine Learning (EE)
+
+#### 2020/21
+Lectures were poorly delivered. Exam questions are weirdly worded and is easily misunderstood. Ultimately, you would have to go through a ML course if you are interested in working in any ML/DL field in the future so if this is your only choice, pick it. Supplement it with Caltech/MIT lectures if you find the lectures boring. - Z
+
+## DoC Modules
+### Operations Research
+### Advanced Computer Architecture
+### Simulation and Modelling
+### Machine Learning (DoC)
+### Type Systems for Programming Languages
+
+# Spring Term
+## EE Modules
+### Digital System Design
+### Advanced Signal Processing
+### Real-Time Digital Signal Processing
+### High Level Programming
+### Deep Learning
+### Robotic Manipulation
+### Managing Engineering Projects
+
+## DoC Modules
+### Graphics
+### Computer Vision
+### Robotics
+### Network and Web Security
+### System Performance Engineering
+### Distributed Algorithms
+### Advanced Databases
