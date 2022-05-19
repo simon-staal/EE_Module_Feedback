@@ -1,5 +1,7 @@
 # EIE 3<sup>rd</sup> Year Modules <!-- omit in toc -->
-This document is a comprehensive guide aiming to make it easier for EIE (and to some extent EEE) students to choose their modules for 3<sup>rd</sup> year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
+This document is a comprehensive guide aiming to make it easier for EIE (and EEE) students to choose their modules for 3<sup>rd</sup> year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. For modules shared between EEE and EIE, reviews are marked EEE or EIE (and if left blank are unknown).
+
+This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
 
 # Table of Contents <!-- omit in toc -->
 - [General Advice](#general-advice)
@@ -45,11 +47,18 @@ This document is a comprehensive guide aiming to make it easier for EIE (and to 
     - [Digital System Design](#digital-system-design)
       - [2020/21](#202021-8)
     - [Advanced Signal Processing](#advanced-signal-processing)
+      - [2020/21](#202021-9)
     - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
+      - [2020/21](#202021-10)
     - [High Level Programming](#high-level-programming)
+      - [2020/21](#202021-11)
+    - [Embedded Systems](#embedded-systems)
+  - [2020/21](#202021-12)
     - [Deep Learning](#deep-learning)
+      - [2020/21](#202021-13)
     - [Robotic Manipulation](#robotic-manipulation)
-    - [Managing Engineering Projects](#managing-engineering-projects)
+    - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
+      - [2020/21](#202021-14)
   - [DoC Modules](#doc-modules-1)
     - [Graphics](#graphics)
     - [Computer Vision](#computer-vision)
@@ -65,7 +74,9 @@ This document is a comprehensive guide aiming to make it easier for EIE (and to 
 
 # General Advice
 ## 2021/22
-3rd year is a lot of work, more than 2nd year in my opinion (although I took an extra module so take that with a grain of salt). You have 7 actual modules + 1 horizons module (which may or may not be significant work depending on which one you got). Having tried 4 modules in both Autumn and Spring (not counting my Horizons module which was 0 effort - Project Management bless up), I would 100% recommend taking 4 in Autumn, the EE CW in spring is a huge time sink if you're looking to get high marks. Combining that with revising for DoC exams at the end of term makes 4 module Spring even worse than 2nd year term 2. With that in mind, 4 modules in Autumn term is still tough. Get your applications for 6 month placements done AS SOON AS POSSIBLE. Depending on what you're looking for, you'll be spending a significant number of hours a week doing it. If you can get it done in the first month of term (or even before term starts), you'll have a lot more time to focus on your modules. That said, take the time to try and get something you want, getting a good placement is more important than your modules (imo). Overall though, you have the opportunity to focus into modules you're really interested in. Take the time to consider what fields you want to work in as a graduate, and what modules help you get there. Despite it being more work, I found the work a lot more interesting, since I was doing modules I actually cared about. Good luck :smile: - Simon
+3rd year is a lot of work, more than 2nd year in my opinion. However, I took an extra (DoC) module, which definitely amped up my workload - DO NOT DO THIS, IT'S A DISADVANTAGE GRADES WISE (unless you really want to, feel free to ask me about it). You have 7 actual modules (at least 3 EE and 2 DoC) + 1 horizons module (which may or may not be significant work depending on which one you got). Having tried 4 'real' modules in both Autumn and Spring (not counting my Horizons module which was 0 effort - Project Management bless up :pray:), I would 100% recommend taking 4 in Autumn (and 3 in Spring), the EE CW in spring is a huge time sink if you're looking to get high marks. Combining that with revising for DoC exams at the end of term makes 4 module Spring even worse than 2nd year term 2. With that in mind, 4 modules in Autumn term is still tough, and you might feel overwhelmed at times (I certainly did). If you're worried about the workload, get your applications for 6 month placements done AS SOON AS POSSIBLE. Depending on what you're looking for, you'll be spending a significant number of hours a week doing applications, online assessments and interviews. If you can get it done in the first month of term (or even before term starts), you'll have a lot more time to focus on your modules. That said, take the time to try and get something you want, getting a good placement is more important than your modules (EDIT: On my placement now, no regrets, was completely worth it). 
+
+Overall, you have the opportunity to focus into modules you're really interested in in 3rd year. Take the time to consider what fields you want to work in as a graduate, and what modules help you get there. Despite it being more work, I found the work a lot more interesting, since I was doing modules I actually cared about. Good luck :smile: - Simon
 
 
 Think twice before you choose the modules. It would be a hard time if you choose a mix of
@@ -142,6 +153,7 @@ Go careers fair (if it's not cancelled because of corona), check websites/Linked
 
 # Autumn Term
 ## EEE Modules
+Most EEE modules this term are fully exam based, where assessment take place over the last 2 weeks of term. Some modules also have include coursework (worth ~20%, may differ per module).
 ### Communication Systems
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60007&s=J3#start)** 
 
@@ -251,6 +263,9 @@ Module is very interesting in terms of communication protocols, internet network
 will be fine for the exam. -Valy (EEE)
 
 
+I enjoyed the module although I agree that the notes and teaching are not the best. As an EEE student, I didn’t really know anything about networks, OSI etc. but the content wasn’t intimidating so I ended up becoming really interested in this area. The recommended textbooks are a really good and interesting introduction to comms networks although they are not that helpful for the exam, so make sure you really understand the slides and past papers well (a lot of memorisation). Barria is friendly and happy to answer questions, but his explanations can be chaotic. -Kasia (EEE)
+
+
 There are loads of contents to remember, even it is an open book exam. Choose it if you are really
 interested in communication protocols and networks. Though the grade is not that bad, it will cost more
 energy than other modules. And some of the content is a bit confusing, as well as the answers, don’t
@@ -298,6 +313,7 @@ Did not go to a single lecture and was absolutely fine. I read the book and the 
 
 ## DoC Modules
 Things to know about DoC modules:
+- DoC modules are typically 20% coursework based 80% exam based. Exams take place on the last week of term, and are predeeded by week where no new material can be taught (no lectures last 2 weeks of term).
 - They do not release past paper solutions. There are instead crowd-sourced solutions which can be found [here](https://imperiallondon-my.sharepoint.com/:f:/r/personal/comparn_ic_ac_uk/Documents/DoC%20Secret%20Revision%20Folder?csf=1&web=1&e=wFa3K0)
 - Some courses will assume you have knowledge which you might be missing (e.g. Operating Systems). A 4th year DoC student Eugene has a repository of rendered LaTeX notes, which are really useful in covering some of this content, which you can find [here](https://github.com/lin-e/imperial-revision).
 - You can find seperate DoC module feedback [here](https://imperiallondon-my.sharepoint.com/:w:/r/personal/comparn_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7BDB61C285-547E-4CD7-8A23-4D9F8BCFD601%7D&file=Course%20Selection%20Advice%20-%20Year%203.docx&action=default&mobileredirect=true), but keep in mind it contains feedback from students with a different background.
@@ -315,6 +331,7 @@ One of the most interesting modules I’ve taken (personal opinion). Noteworthy 
 
 ### Advanced Computer Architecture
 **Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60001/)**
+
 **Course Page: [here](https://www.doc.ic.ac.uk/~phjk/AdvancedCompArchitecture/aca20/)**
 
 **Assumes knowledge of operating systems (kernel, page faults, virtual memory)**
@@ -336,6 +353,7 @@ Easily my favourite course from Autumn term. Paul Kelly is really passionate abo
 
 ### Machine Learning (DoC)
 **Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/70050/)**
+
 **Course Page: [here](https://intro2ml.pages.doc.ic.ac.uk/autumn2021/)**
 
 #### 2021/22
@@ -352,27 +370,119 @@ Pretty well taught, good introduction. Get a good group for the coursework. If y
 #### Older
 Agree with other comments that this is a good module, and that exam is very doable (if you put in effort and time to learn definitions, which are then used in derivations). While proofs are difficult and are bulk of the lectures to motivate applications and derivations, fortunately they are unexamined. Steffen is an amazing lecturer who loves the content and does his best to motivate you to appreciate type systems. While this course mostly deals with theoretical CS, its applications are not too far-fetched (e.g. implementing a type inference system (duh)). This course also serves as an ad for Steffen’s research topics, which he encourages students to consider by the end of the module. 
 
+
 For EIE: DoC students will have an advantage of knowing lambda calculus and functional programming (though these aren’t strict prereqs and he will go through some relevant content). I found it helpful to go through Dr. John Wickerson’s lambda calculus lecture PDF: https://johnwickerson.github.io/talks/modcomp_lambda_2015.pdf, as well as a Haskell crash course: https://www.youtube.com/watch?v=02_H3LjqMr8). It is possible to score well without revising these fundamentals though. Also, this course is (very slightly) helpful if you proceed to take HLP in Spring EEE, which uses F# (F# implements a Hindley-Milner type system, briefly covered in this module) -LH (2019/20) 
 
 # Spring Term
 ## EE Modules
+These modules are "coursework only", although many of them have some kind of test/quiz which counts towards your grade. Some coursework deadlines extend past the end of term (although ideally this shouldn't happen)
 ### Digital System Design
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60011&s=J3#start)**
 
 #### 2020/21
+Really good module for developing an understanding of digital systems. It really helped to see just how much of a difference different design techniques made. The lectures were nice but seemed disconnected to the coursework imo. The coursework is time-consuming, and you need to be really on top of it as there will be loads of errors/bugs but as others have said, it’s very rewarding. - HH
+
+Very time-consuming module. Definitely worth taking if you enjoyed Digital Electronics (with Professor Cheung) and Computer Architecture (Dr Clarke). As our DSD was done remotely, it was very hard to sort out debugging issues in a short amount of time, so be prepared to allocate a lot of time in the week for sorting out issues related to this module. GTAs are helpful but generally you do not get much time to speak with them. Dr Bouganis is very supportive and wants to help you out wherever he can, so be sure to ask him plenty of questions. His feedback for the 3 reports you are required to complete is also very detailed and helps you to learn. - Arijit (EEE)
 
 ### Advanced Signal Processing
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60002&s=J3#start)**
+
+#### 2020/21
+
+I would recommend this module only for those who are interested in signal processing and/or machine learning principles. Professor Mandic tries to make the lecture content interesting by including real-world examples, which I thought was a really good idea, however this content does not help at all with the 2 coursework assignments (Interim report due normally beginning of February and Final report (and code) due end of March).
+
+One thing that I did not like about the Interim Report was the feedback I got back. For me, it did not give me any opportunities to learn, just ways to improve how my write my LaTeX code. However apparently the point of the Interim Report is to check whether you can design a report correctly, so bear that in mind. 
+
+A word of warning for the final report, don’t expect to get any feedback for it until mid-August and the final grade till mid-September (for the 2020/21 year, MEng EEE/EIE students got letter grades back on the 15th of September). This feedback is not individual feedback. They send out an email to the whole ASP cohort which gives comments on how the group performed on the questions. The document can be found [here](https://imperiallondon-my.sharepoint.com/:w:/r/personal/eeearn_ic_ac_uk/Documents/EE%20Resources/Textbooks/Year%203/Spring%20Term/Advanced%20Signal%20Processing/2021%20Group%20Feedback.docx?d=w28e0b3de94c447cd9d807976ea055a42&csf=1&web=1&e=1FT4c2)
+
+In my opinion, GTA support for this module is quite poor compared to other 3rd year modules. The GTAs don’t show up until after you finish the Interim report, and when you ask them questions, they are unwilling to give answers, since the coursework has not been changed for several years. They are also in general very slow to respond to questions you post on the Q+A forums. Make sure that plenty of live sessions are organized, as they are happy to discuss the concepts in the lecture slides.
+
+To wrap this up, I am only giving my experience after taking this module remotely. There is a lot of interesting content, but you must assess whether you want to put the effort into the two reports, based on how much feedback you will receive. Also make sure to contact the Head of Year and Director of Undergraduate Studies if feedback is not being released after an adequate amount of time.
+
+
+The content is interesting for those who want to learn about real-world signal processing. However, the lecturer is not great at explaining and rarely bothers to answer questions over email or on Teams, which is so disappointing given the module was taught remotely. The GTA support is also bad because they often seem confused with the content themselves or will give vague or contradictory answers. Being passionate about signal processing, and asking higher years who took the module to compare plots is essential to doing well here. The CW is a 40 page report based on a long set of MATLAB exercises. You should start working on it ASAP and put in enough hours per week so you don’t end up scrambling in the end.
+
+
+This module is awful. The content is interesting and the applications are useful, but the general feedback and support is terrible, and Mandic does a bad job of explaining some tough concepts. I wouldn’t recommend this course unless you have a serious interest in signal processing.
+
 ### Real-Time Digital Signal Processing
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60025&s=J3#start)**
+
+#### 2020/21
+Short answer: don’t pick it unless there is a guarantee that the module was fixed. Nothing was done in C or assembly, only simulink. The lectures are very insightful about real-time DSP, yet most of the things were really improvised “on-the-go" style, especially that no solution was practically provided or possible for the largest coursework piece. Also no GTAs, so careful about support! (Although Adria is super kind and helpful, and answered all emails and questions throughout the term) Update: there will be a lot of improvements to the module next year, I believe it’s worth taking the module after aligning your expectations correctly.
+
+
+Adria changed the content of the module significantly from 19/20, as everything was done with an under-powered TI board on Simulink. The lecturers give you some insight into practical DSP, but unless you took autumn-term DSP, you will not really know why you’re doing what you're doing. There was also no GTA support, so do try to confirm with him that he will actually have GTAs this year. On the bright side, Adria is supportive and willing to help students out. He was generous with how much time he devoted to support and answers emails quickly.
+
 ### High Level Programming
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60015&s=J3#start)**
+
+#### 2020/21
+Honestly I really enjoyed this module. Take it if you want to be a better programmer. You get out what you put in. F# is actually a really nice language to write in. Be aware that it is taught by Tom Clarke – you’ll know whether you like him or not from first year I reckon. Make sure you pick a good group – you'll be working a lot with your group and (unless it changes) you only pick half of the group. Also make sure you learn how to use Git beforehand! - JZ (EIE)
+
+
+Some people say this module is tough. I honestly don’t think it is once you understand what functional programming is all about - so try to do that. F# is a very productive language to work with – it’s easy to debug, the code looks beautiful and it’s...well, high level. In comparison, I find C++ rather stressful as you need to keep track of the variables you’ve declared...F# is just functions! As JZ mentions, it can improve your ability as a programmer. I recommend checking the module out to see if it is for you. – Aaman (EIE)
+
+
+The final coursework is kinda hard but really rewarding. Dr Tom Clarke is amazing but he’s still Dr Tom Clarke so it’s a really independent-learning module. It is still worth asking him or the GTAs for any help. Get the worksheets in early and try to ace the timed programming segment to put you in the best position for the final coursework. That one can be hard. The struggle of this project is picking a great group in my opinion as the workload is hefty at the end when you have a bunch of other deadlines but I was pretty lucky. If you like programming, it is really interesting learning functional programming so I would encourage taking it. - Simi
+
+
+Functional programming moves basic programming ideas to the compiler. Overheads such as creating looping iterators are removed, so you don’t need (for int i=0; …..) anymore and can write more high-level, concise code. It is a great skill to have and even Python supports it. If you can follow the worksheets that Tom Clarke has prepared you are definitely set to ace the coursework. Coursework’s workload may not be evenly distributed among your team so make sure you voice out your concerns to the GTA’s or to Tom Clarke as early as possible if such situation is happening.
+
+### Embedded Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60013&s=J3#start)**
+
+## 2020/21
+Not that difficult I think. Get a good group that can work well with. Not that theoretical in my opinion. Veryyyy slow feedback. Slides weren’t that interesting tbh. JZ (EIE)
+
+
+One of my favorite modules! You get to be creative and to work with your friends. If you have some other knowledge about websites, electronics, ML, you can show off and apply it on the projects. Important to pick a good team as it can really reduce your workload when it’s a good one. Stott is also a great lecturer and you can ask questions during labs, GTA will (generally) help. - MG 
+
 ### Deep Learning
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60009&s=J3#start)**
+
+#### 2020/21
+This module is worth it if you want to find out about deep learning and how neural networks can be applied. I found the lectures to be nice, the GTAs were helpful and knowledgeable. However, I really enjoyed the Google Colab notebooks (in which you work with Keras models hands on). They really stimulate learning. Also...Colab Pro allows you to use Google Colab for longer time...but it’s perfectly possible to use the vanilla non-pro version if you manage your time well. In fact I kind of left tasks till the business end of term and I still got along fine without Pro. - Aaman (EIE)
+
+
+Just use the Collab notebook, you can even get a headstart by cloning the previous year and doing most of the tasks+ report before they release it. TBF if you know a little about ML it’s a good way to get a good mark for people who are good at working autonomously – MG
+
+
+Didn’t watch a single lecture and still got a decent grade. - Daryl
+
+
+Not a very hard module if you can learn stuff yourself. You really don’t have to go to the lectures I think but it’s good to give your day routine. The Google Colab stuff was actually fun and machine learning helped. Use the feedback in the interim report because they like you to explain stuff in a certain way. Do not think you can leave the report last minute, I tried this and almost failed the module so make sure you leave time to run simulations, write up and format. Also split up the notebook running between mates and computers if you can. – Simi
+
+
 ### Robotic Manipulation
-### Managing Engineering Projects
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60030&s=J3#start)**
+
+
+### Principles of Classical and Modern Radar Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60031&s=J3#start)**
+
+
+**This module was not available for EIE in 2021/22, so there is no feedback for it**
+
+#### 2020/21
+Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot.
 
 ## DoC Modules
+Things to know about DoC modules:
+- DoC modules are typically 20% coursework based 80% exam based. Exams take place on the last week of term, and are predeeded by week where no new material can be taught (no lectures last 2 weeks of term).
+- They do not release past paper solutions. There are instead crowd-sourced solutions which can be found [here](https://imperiallondon-my.sharepoint.com/:f:/r/personal/comparn_ic_ac_uk/Documents/DoC%20Secret%20Revision%20Folder?csf=1&web=1&e=wFa3K0)
+- Some courses will assume you have knowledge which you might be missing (e.g. Operating Systems). A 4th year DoC student Eugene has a repository of rendered LaTeX notes, which are really useful in covering some of this content, which you can find [here](https://github.com/lin-e/imperial-revision).
+- You can find seperate DoC module feedback [here](https://imperiallondon-my.sharepoint.com/:w:/r/personal/comparn_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7BDB61C285-547E-4CD7-8A23-4D9F8BCFD601%7D&file=Course%20Selection%20Advice%20-%20Year%203.docx&action=default&mobileredirect=true), but keep in mind it contains feedback from students with a different background.
+
+
 ### Graphics
+**Imperial Module Page: [here]()**
+
 ### Computer Vision
+**Imperial Module Page: [here]()**
+
 ### Robotics
+**Imperial Module Page: [here]()**
 
 #### 2021/22
 
@@ -380,8 +490,16 @@ For EIE: DoC students will have an advantage of knowing lambda calculus and func
 Really well taught. Not that much lecture content to go through since most of the content is practicals. Practicals etc generally pretty easy. Taught remotely in 2021 using Lua + CoppeliaSim. Get a good group but also make sure you put in the effort (really useful for prepping for exams) - JZ (2020/21)
 
 ### Network and Web Security
+**Imperial Module Page: [here]()**
+
 ### System Performance Engineering
+**Imperial Module Page: [here]()**
+
 ### Distributed Algorithms
+**Imperial Module Page: [here]()**
+
 ### Advanced Databases
+**Imperial Module Page: [here]()**
+
 #### 2021/22
 Quite hard and confusing (for me). It is getting harder year by year, maybe because it becomes open book these two years. Do take a look at the past papers for 2019-2020 and 2020-2021, it removes almost all simple and standard questions compared to previous years. The slides do not show every detail, and you need to search/ask by yourself. The tutorial sheets and slides only contain easy questions and provide simple examples, while the exam is way harder and complex.  It requires you to fully understand every aspect of the material. If you go and check the answers for previous years, some questions may contain 4-5 alternative answers, and no one know which is the correct one (for most of the time I would come up with a 6th answer). Also, for EIE, do teach yourself SQL before you choose this module, though it does not mention so.

@@ -232,7 +232,7 @@ such as ML.
 **Imperial Module Page: [here]()**
 
 #### 2021/22
-I enjoyed the module although I agree that the notes and teaching are not the best. As an EEE student, I didn’t really know anything about networks, OSI etc. but the content wasn’t intimidating so I ended up becoming really interested in this area. The recommended textbooks are a really good and interesting introduction to comms networks although they are not that helpful for the exam, so make sure you really understand the slides and past papers well (a lot of memorisation). Barria is friendly and happy to answer questions, but his explanations can be chaotic. -Kasia
+I enjoyed the module although I agree that the notes and teaching are not the best. As an EEE student, I didn’t really know anything about networks, OSI etc. but the content wasn’t intimidating so I ended up becoming really interested in this area. The recommended textbooks are a really good and interesting introduction to comms networks although they are not that helpful for the exam, so make sure you really understand the slides and past papers well (a lot of memorisation). Barria is friendly and happy to answer questions, but his explanations can be chaotic. -Kasia (EEE)
 
 
 ### Machine Learning (EE)
