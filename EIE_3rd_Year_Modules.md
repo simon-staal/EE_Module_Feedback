@@ -465,7 +465,7 @@ Not a very hard module if you can learn stuff yourself. You really don’t have 
 **This module was not available for EIE in 2021/22, so there is no feedback for it**
 
 #### 2020/21
-Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot.
+Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot. (EEE)
 
 ## DoC Modules
 Things to know about DoC modules:
@@ -476,13 +476,13 @@ Things to know about DoC modules:
 
 
 ### Graphics
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/60005/)**
 
 ### Computer Vision
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60006)**
 
 ### Robotics
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60019)**
 
 #### 2021/22
 
@@ -490,16 +490,22 @@ Things to know about DoC modules:
 Really well taught. Not that much lecture content to go through since most of the content is practicals. Practicals etc generally pretty easy. Taught remotely in 2021 using Lua + CoppeliaSim. Get a good group but also make sure you put in the effort (really useful for prepping for exams) - JZ (2020/21)
 
 ### Network and Web Security
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60015)**
+
+**Course Page: [here](https://331.cybersec.fun/)**
+
+**Simon's Lab Notes: [here](https://github.com/sts219/security_2022_labs)**
 
 ### System Performance Engineering
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60017)**
+
+**Course Page (First half): [here](https://co339.pages.doc.ic.ac.uk/)**
 
 ### Distributed Algorithms
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60009)**
 
 ### Advanced Databases
-**Imperial Module Page: [here]()**
+**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60002)**
 
 #### 2021/22
 Quite hard and confusing (for me). It is getting harder year by year, maybe because it becomes open book these two years. Do take a look at the past papers for 2019-2020 and 2020-2021, it removes almost all simple and standard questions compared to previous years. The slides do not show every detail, and you need to search/ask by yourself. The tutorial sheets and slides only contain easy questions and provide simple examples, while the exam is way harder and complex.  It requires you to fully understand every aspect of the material. If you go and check the answers for previous years, some questions may contain 4-5 alternative answers, and no one know which is the correct one (for most of the time I would come up with a 6th answer). Also, for EIE, do teach yourself SQL before you choose this module, though it does not mention so.
