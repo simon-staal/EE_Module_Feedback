@@ -5,9 +5,9 @@ from typing import Dict, List
 import re
 
 DEFAULT_SURVEY_FIELD_MAPPING = {
-    'Which term was your module in?': 'term',
-    'Module (Autumn)': 'autumn',
-    'Module (Spring)': 'spring',
+    'Which term was your module in?': '_term',
+    'Module (Autumn)': '_autumn',
+    'Module (Spring)': '_spring',
     'How would you rate the module content (interesting, useful, etc.)': 'Content',
     'How would you rate the module organisation': 'Organisation',
     'How would you rate the lecturer(s) (engaging, passionate, etc.)': 'Lecturer',
@@ -49,14 +49,14 @@ class FeedbackGenerator:
                             column_idx[self._survey_field_mapping[field]] = i
                 else:
                     # process row
-                    if row[column_idx['term']] == 'Autumn':
-                        module = row[column_idx['autumn']]
-                    elif row[column_idx['term']] == 'Spring':
-                        module = row[column_idx['spring']]
+                    if row[column_idx['_term']] == 'Autumn':
+                        module = row[column_idx['_autumn']]
+                    elif row[column_idx['_term']] == 'Spring':
+                        module = row[column_idx['_spring']]
 
                     if module not in raw_feedback:
                         raw_feedback[module] = {}
-                        raw_feedback[module]['term'] = row[column_idx['term']]
+                        raw_feedback[module]['_term'] = row[column_idx['_term']]
                         for field in self._num_feedback_fields:
                             raw_feedback[module][field] = [int(row[column_idx[field]])]
                         for field in self._text_feedback_fields:
@@ -68,7 +68,7 @@ class FeedbackGenerator:
                             raw_feedback[module][field].append(row[column_idx[field]])
                         
                 line_count += 1
-            print(f'Successfully parsed {line_count - 1} reviews')
+            print(f'[INFO] Successfully parsed {line_count - 1} reviews')
         
         return raw_feedback
 
@@ -80,7 +80,7 @@ class FeedbackGenerator:
                 values = fields[field]
                 n = len(values)
                 feedback[module][field] = sum(values) / n
-            feedback[module]['n_of_reviews'] = n
+            feedback[module]['_n_of_reviews'] = n
 
             for field in self._text_feedback_fields:
                 feedback[module][field] = []
@@ -88,12 +88,12 @@ class FeedbackGenerator:
                     if len(comment) > 0:
                         feedback[module][field].append(comment)
 
-        print('Successfully aggregated feedback')
+        print('[INFO] Successfully aggregated feedback')
         return feedback
 
     def get_feedback(self):
         if not self._feedback:
-            raise Exception('No feedback found. Please call extract_feedback_from_csv first.')
+            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
         
         return self._feedback
 
@@ -110,7 +110,7 @@ class FeedbackGenerator:
 
     def append_to_feedback_file(self, old_feedback_file: str, dest_feedback_file: str, year: str):
         if not self._feedback:
-            raise Exception('No feedback found. Please call extract_feedback_from_csv first.')
+            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
         
         feedback = self._feedback
 
@@ -124,7 +124,7 @@ class FeedbackGenerator:
                         curr_module = module_regex_match.group(0)
                         added_new_feedback = False
 
-                    year_regex_match = re.search(r'(?<=^#### )([0-9]{4}/[0-9]{2})|(Older)$', line) # Remove 'Older' part of regex after 2021/22
+                    year_regex_match = re.search(r'(?<=^#### )([0-9]{4}-[0-9]{2})|(Older)$', line) # Remove 'Older' part of regex after 2021-22
                     if year_regex_match and not added_new_feedback:
                         added_new_feedback = True
                         if curr_module not in feedback:
@@ -137,20 +137,20 @@ class FeedbackGenerator:
         if feedback:
             print(f'[WARNING] Could not find existing feedback for the following modules: {list(feedback.keys())}')
             out_file = f'additional_feedback_{year}.md'
-            print(f'[INFO] Writing formatted feedback for these modules to {out_file}')
+            #print(f'[INFO] Writing formatted feedback for these modules to {out_file}')
             self.write_feedback_to_file(out_file, year, feedback)
                     
 
     def _write_feedback(self, out_file: TextIOWrapper, year: str, single_feedback: Dict):
         out_file.write(f'#### {year}\n')
         out_file.write('**Quick Summary**\n\n')
-        out_file.write(f'*Average module scores from {single_feedback["n_of_reviews"]} respondants.*\n')
+        out_file.write(f'*Average module scores from {single_feedback["_n_of_reviews"]} respondants.*\n')
         for field in self._num_feedback_fields:
             out_file.write(f'- {field}: {round(single_feedback[field], 2)} out of 5\n')
         out_file.write('\n')
 
         for field in self._text_feedback_fields:
             if single_feedback[field]:
-                out_file.write(f'**{field}**\n\n\n')
+                out_file.write(f'**{field}**\n\n')
             for resp in single_feedback[field]:
                 out_file.write(f'{resp}\n\n\n')
