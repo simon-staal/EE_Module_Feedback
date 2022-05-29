@@ -53,7 +53,7 @@ This document is maintained by the EIE departmental representative, instructions
     - [High Level Programming](#high-level-programming)
       - [2020/21](#202021-11)
     - [Embedded Systems](#embedded-systems)
-  - [2020/21](#202021-12)
+      - [2020/21](#202021-12)
     - [Deep Learning](#deep-learning)
       - [2020/21](#202021-13)
     - [Robotic Manipulation](#robotic-manipulation)
@@ -115,7 +115,7 @@ Here's a quick summary of some important points:
 You're always welcome to ask me for advice :blush: - Simon 2021/22
 
 
-Ask people in higher years who interned at the companies you’re interested in. They’ll give you interview tips, help you on the CV, tell you exactly what it’s like working at the company as a student interning. Potentially they’ll also refer you in most cases. For software interviews, leetcode is good, but in-person practice is 10 times better in my opinion. Try to get one face-to-face session per week with a friend or someone in a higher year with more technical interview experience. For PM and non-technical interviews, read “Cracking the PM interview”. It provides you with general rules and guidelines and how to structure your answers and guide yourself through the interviewer’s questions. Most recruitment starts in August for tech and trading, start reaching out to recruiters by then. - Jaafar 20/21
+Ask people in higher years who interved at the companies you're interested in. They'll give you interview tips, help you on the CV and tell you exactly what it's like working at the company as a student intern. Potentially they'll also refer you in some cases. For software intervies, lettcode is good, but in-person practice is 10 times better in my opinion. Try to get on face-to-face session per week with a friend or someone in a higher year with more technical interview experience. For PM and non-technical interviews, read "Cracking the PM interview". It provides you with general rules and guidelines on how to structure your answers and guide yourself through the interviewer's questions. Most recruitment starts in August for tech and trading, start reaching out to recruiters by then. - Jaafar 2020/21
 
 
 Start applying as early as possible – get your CV/LinkedIn/whatever else ready before term starts and then start applying. The earlier you get your placement sorted out the easier your life will be. Also – you'll probably be rejected by most places. If you’re going for a software role, make sure you practice a lot beforehand as well. - JZ, 2020/21
@@ -123,13 +123,14 @@ Start applying as early as possible – get your CV/LinkedIn/whatever else ready
 
 It’s ok to get your application rejected. It happens. And it’s ok if you don’t end up getting a placement. That can also happen. None of this defines you. - Aaman, 2020-21
 
+
 Be great at one programming language (show dem your projects), have semi-decent grades, demonstrate your communication skills and landing a placement is just an arm-length away. After couple of failures, you would learn what interviewers want to hear and what interviewers don’t want to know about. 2020/21 Z
 
 
 Advice for aspiring SWE candidates targeting placements at big tech/tech in finance – grind leetcode over summer and apply early. Positions fill up early and are highly competitive as you’ll be competing with DoC students too. Brush up on core CS fundamentals (OS, data structures, algorithms) as these get asked frequently too. Take note of groupwork/previous internship experiences that you can bring up during behavioral interviews and prepare well for these too. - Daryl 20/21
 
 
-It’s ok if you get rejected like 1000 times. I promise a load of other people are too. Get in the applications early like September/ August. Try to focus on a few companies you really want and spend the summer practising programming or reading over notes etc to prepare. Then start applying to companies you may not have considered. Update your LinkedIn!! You can get recruited off it. Also ask some of the older years. It also helps if you have a spreadsheet of companies to keep organised. Try and focus your applications – I didn’t which was fine in the end but stressful writing a bunch of different field cover letters. Just put yourself out there; don’t hold back on your skills in your CV. Once you do enough applications, you’ll know how to sell yourself so trust the process. If you don’t find anything, the group projects can also get you graduate roles and they’re really fun!! They also help when it comes to graduate applications so either way you don’t “lose”. If you want to go into tech in finance, leetcode and hackerrank are your best friends. Best of Luck !!! - Simi 2020/21
+It’s ok if you get rejected like 1000 times. I promise a load of other people are too. Get in the applications early like September/ August. Try to focus on a few companies you really want and spend the summer practising programming or reading over notes etc to prepare. Then start applying to companies you may not have considered. Update your LinkedIn!! You can get recruited off it. Also ask some of the older years. It also helps if you have a spreadsheet of companies to keep organised. Try and focus your applications – I didn’t which was fine in the end but stressful writing a bunch of different field cover letters. Just put yourself out there; don’t hold back on your skills in your CV. Once you do enough applications, you’ll know how to sell yourself so trust the process. If you don’t find anything, the group projects can also get you graduate roles and they’re really fun!! They also help when it comes to graduate applications so either way you don’t "lose". If you want to go into tech in finance, leetcode and hackerrank are your best friends. Best of Luck !!! - Simi 2020/21
 
 
 Understand yourself better, what careers you want to pursue, how to represent yourself in CV/Cover letter, compare your current skills set to your desire jobs requirement, find areas to improve. – 2019/20
@@ -241,7 +242,7 @@ Where to start? There are definitely some parts of this module that are useful, 
 modules to take, as others have mentioned.
 
 
-This is a good module, however incredibly badly named. It has more to do with declarative programming, logic & search/optimisation algorithms than “artificial intelligence” as such – I would recommend it as the content was engaging, course materials were good & the U/GTAs were helpful, but make sure you look at
+This is a good module, however incredibly badly named. It has more to do with declarative programming, logic & search/optimisation algorithms than "artificial intelligence" as such – I would recommend it as the content was engaging, course materials were good & the U/GTAs were helpful, but make sure you look at
 the materials before you choose it if you can.
 
 
@@ -409,7 +410,7 @@ This module is awful. The content is interesting and the applications are useful
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60025&s=J3#start)**
 
 #### 2020/21
-Short answer: don’t pick it unless there is a guarantee that the module was fixed. Nothing was done in C or assembly, only simulink. The lectures are very insightful about real-time DSP, yet most of the things were really improvised “on-the-go" style, especially that no solution was practically provided or possible for the largest coursework piece. Also no GTAs, so careful about support! (Although Adria is super kind and helpful, and answered all emails and questions throughout the term) Update: there will be a lot of improvements to the module next year, I believe it’s worth taking the module after aligning your expectations correctly.
+Short answer: don’t pick it unless there is a guarantee that the module was fixed. Nothing was done in C or assembly, only simulink. The lectures are very insightful about real-time DSP, yet most of the things were really improvised "on-the-go" style, especially that no solution was practically provided or possible for the largest coursework piece. Also no GTAs, so careful about support! (Although Adria is super kind and helpful, and answered all emails and questions throughout the term) Update: there will be a lot of improvements to the module next year, I believe it’s worth taking the module after aligning your expectations correctly.
 
 
 Adria changed the content of the module significantly from 19/20, as everything was done with an under-powered TI board on Simulink. The lecturers give you some insight into practical DSP, but unless you took autumn-term DSP, you will not really know why you’re doing what you're doing. There was also no GTA support, so do try to confirm with him that he will actually have GTAs this year. On the bright side, Adria is supportive and willing to help students out. He was generous with how much time he devoted to support and answers emails quickly.
@@ -432,7 +433,7 @@ Functional programming moves basic programming ideas to the compiler. Overheads 
 ### Embedded Systems
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60013&s=J3#start)**
 
-## 2020/21
+#### 2020/21
 Not that difficult I think. Get a good group that can work well with. Not that theoretical in my opinion. Veryyyy slow feedback. Slides weren’t that interesting tbh. JZ (EIE)
 
 

@@ -3,7 +3,7 @@ from feedback_generator import FeedbackGenerator
 
 OUT_FILE = 'test_out.md'
 
-# Getting user output with ArgParse would be nicer but I don't want this program to have any pip dependencies
+# Getting user input with ArgParse would be nicer but I don't want this program to have any external dependencies
 def main():
     raw_data = input('Please specify the path to the .csv containing the survey results\n')
     feedback_generator = FeedbackGenerator()

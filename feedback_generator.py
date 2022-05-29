@@ -97,13 +97,16 @@ class FeedbackGenerator:
         
         return self._feedback
 
-    def write_feedback_to_file(self, dest_md_file: str, year: str, feedback: Dict[str, Dict]):   
+    def write_feedback_to_file(self, dest_md_file: str, year: str, feedback: Dict[str, Dict]):
+        """
+        Formats and writes the feedback
+        """   
         with open(dest_md_file, 'w') as out_file:
             for module, feedback in self._feedback.items():
                 out_file.write(f'### {module}\n')
                 self._write_feedback(out_file, year, feedback)
     
-        print(f'Successfully generated markdown, saved to {dest_md_file}')
+        print(f'[INFO] Successfully generated markdown, saved to {dest_md_file}')
 
     def append_to_feedback_file(self, old_feedback_file: str, dest_feedback_file: str, year: str):
         if not self._feedback:
@@ -114,26 +117,27 @@ class FeedbackGenerator:
         with open(dest_feedback_file, 'w') as out_file:
             with open(old_feedback_file, 'r') as in_file:
                 curr_module = None
-                while in_file.readable():
-                    line = in_file.readline()
-                    module_regex_match = re.search(r'(?<=^### )[A-Za-z ]*$', line)
+                while line := in_file.readline():
+                    out_file.write(line)
+                    module_regex_match = re.search(r'(?<=^### )[A-Za-z ()]*$', line)
                     if module_regex_match:
                         curr_module = module_regex_match.group(0)
                         added_new_feedback = False
 
-                    year_regex_match = re.search(r'(?<=^#### )[0-9]{4}/[0-9]{2}$', line)
+                    year_regex_match = re.search(r'(?<=^#### )([0-9]{4}/[0-9]{2})|(Older)$', line) # Remove 'Older' part of regex after 2021/22
                     if year_regex_match and not added_new_feedback:
+                        added_new_feedback = True
                         if curr_module not in feedback:
-                            print(f'WARNING: Could not find module {curr_module} in processed feedback')
+                            print(f'[WARNING] Could not find module {curr_module} in processed feedback') 
                         else:
+                            print(f'[INFO] Wrote feedback for {curr_module}')
                             self._write_feedback(out_file, year, feedback[curr_module])
-                            added_new_feedback = True
                             feedback.pop(curr_module)
-        print(f'Finished generating formatting feedback, the updated feedback file can be found at {dest_feedback_file}')
+        print(f'[INFO] Finished generating formatting feedback, the updated feedback file can be found at {dest_feedback_file}')
         if feedback:
-            print(f'WARNING: Could not find existing feedback for the following modules: {list(feedback.keys())}')
+            print(f'[WARNING] Could not find existing feedback for the following modules: {list(feedback.keys())}')
             out_file = f'additional_feedback_{year}.md'
-            print(f'Writing formatted feedback for these modules to {out_file}')
+            print(f'[INFO] Writing formatted feedback for these modules to {out_file}')
             self.write_feedback_to_file(out_file, year, feedback)
                     
 
