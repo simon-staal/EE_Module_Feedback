@@ -6,29 +6,29 @@ This document is maintained by the EIE departmental representative, instructions
 # Table of Contents <!-- omit in toc -->
 - [General Advice](#general-advice)
   - [2021-22](#2021-22)
-  - [2020-21](#2020-21)
-- [Industrial Placement / Groupo Project / Individual Projects](#industrial-placement--groupo-project--individual-projects)
+  - [2020-21 (Pre Curiculum Rework)](#2020-21-pre-curiculum-rework)
+- [Industrial Placement Advice](#industrial-placement-advice)
 - [Autumn Term](#autumn-term)
   - [EEE Modules](#eee-modules)
     - [Communication Systems](#communication-systems)
-      - [2020-21](#2020-21-1)
+      - [2020-21](#2020-21)
     - [Digital Signal Processing](#digital-signal-processing)
-      - [2020-21](#2020-21-2)
+      - [2020-21](#2020-21-1)
     - [Control Engineering](#control-engineering)
       - [2021-22](#2021-22-1)
-      - [2020-21](#2020-21-3)
+      - [2020-21](#2020-21-2)
     - [Mathematics for Signals and Systems](#mathematics-for-signals-and-systems)
       - [2021-22](#2021-22-2)
-      - [2020-21](#2020-21-4)
+      - [2020-21](#2020-21-3)
     - [Artificial Intelligence](#artificial-intelligence)
       - [2021-22](#2021-22-3)
-      - [2020-21](#2020-21-5)
+      - [2020-21](#2020-21-4)
     - [Communication Networks](#communication-networks)
       - [2021-22](#2021-22-4)
-      - [2020-21](#2020-21-6)
+      - [2020-21](#2020-21-5)
     - [Machine Learning (EE)](#machine-learning-ee)
       - [2021-22](#2021-22-5)
-      - [2020-21](#2020-21-7)
+      - [2020-21](#2020-21-6)
   - [DoC Modules](#doc-modules)
     - [Operations Research](#operations-research)
       - [2021-22](#2021-22-6)
@@ -45,20 +45,20 @@ This document is maintained by the EIE departmental representative, instructions
 - [Spring Term](#spring-term)
   - [EE Modules](#ee-modules)
     - [Digital System Design](#digital-system-design)
-      - [2020-21](#2020-21-8)
+      - [2020-21](#2020-21-7)
     - [Advanced Signal Processing](#advanced-signal-processing)
-      - [2020-21](#2020-21-9)
+      - [2020-21](#2020-21-8)
     - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
-      - [2020-21](#2020-21-10)
+      - [2020-21](#2020-21-9)
     - [High Level Programming](#high-level-programming)
-      - [2020-21](#2020-21-11)
+      - [2020-21](#2020-21-10)
     - [Embedded Systems](#embedded-systems)
-      - [2020-21](#2020-21-12)
+      - [2020-21](#2020-21-11)
     - [Deep Learning](#deep-learning)
-      - [2020-21](#2020-21-13)
+      - [2020-21](#2020-21-12)
     - [Robotic Manipulation](#robotic-manipulation)
     - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
-      - [2020-21](#2020-21-14)
+      - [2020-21](#2020-21-13)
   - [DoC Modules](#doc-modules-1)
     - [Graphics](#graphics)
     - [Computer Vision](#computer-vision)
@@ -72,6 +72,7 @@ This document is maintained by the EIE departmental representative, instructions
     - [Advanced Databases](#advanced-databases)
       - [2021-22](#2021-22-10)
 
+<div style="page-break-after: always;"></div>
 
 # General Advice
 ## 2021-22
@@ -85,7 +86,7 @@ both eee and doc modules in spring term, as both the exams and deadlines for the
 would be in the same week and you need to spend the revision time doing coursework when the DoC
 students are preparing for the exams. – S
 
-## 2020-21
+## 2020-21 (Pre Curiculum Rework)
 In Spring term I think a good balance is 2 EEE modules and 2 DoC modules (assuming your
 split is four modules per term). If you’re doing 3 EEE modules and 1 DoC module... have fun with
 coursework lol – JZ
@@ -102,7 +103,7 @@ much time you are read to spend on interviewing. You’ll get many 1-2 week noti
 which last on average 2.5 hours. This will slow your study pace, so make sure you’re on top of things
 when possible. - Jaafar
 
-# Industrial Placement / Groupo Project / Individual Projects
+# Industrial Placement Advice
 
 Here's a quick summary of some important points:
 - Apply to lots of places, expect many rejections

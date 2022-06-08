@@ -6,6 +6,10 @@ Welcome to the repository with the tools to help maintain the module feedback re
 - [The module feedback survey](#the-module-feedback-survey)
   - [Adding/Changing fields to the feedback survey](#addingchanging-fields-to-the-feedback-survey)
 - [The python scripts](#the-python-scripts)
+- [Converting markdown to pdf](#converting-markdown-to-pdf)
+  - [Markdown Viewer (Chrome Extension)](#markdown-viewer-chrome-extension)
+  - [Markdown to PDF (Visual Studio Code Extension)](#markdown-to-pdf-visual-studio-code-extension)
+  - [pandoc (Linux Terminal)](#pandoc-linux-terminal)
 
 # Quick Start
 1. Clone this repo
@@ -65,4 +69,33 @@ To generate the feedback for the next year, you will require the following (for 
 - The previous year's feedback **markdown** (.md) file
 
 To generate the feedback for your year, simply run `python3 update_feedback.py` and follow the prompts! The script itself should be quite simple to read through, it uses the [feedback generator class](feedback_generator.py) to do all the work.
+
+As more feedback gets added to the file, it might get a bit long. By running `python3 remove_feedback.py`, you will be able to remove sections of feedback which are linked to a year of your choice. Once again, just follow the prompts and you should be fine. I think a reasonable initial approach is to remove feedback that is older than 3 years, but use your common sense. It might also be better to preserve older reviews for modules with very little feedback. The best way of doing this is to manually move these into an "Older" section with a different header, that way it won't be automatically removed by the script. 
+
+Also note that the "General Advice" and "Industrial Placement" sections of the feedback should be handled manually. As a rep, feel free to reach out to your year to ask if anyone wants to give general advice, otherwise for the moment I think what's there is plenty sufficient.
+
+# Converting markdown to pdf
+Ideally, we want to have a nicely rendered pdf uploaded to the EE OneDrive that's pleasant to read. There are many ways to do this (google is your friend), but I'll list some of my personal preferences here.
+
+## Markdown Viewer (Chrome Extension)
+[Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) is a Chrome Extension that lets you open markdown files in chrome. I like it because the resulting pdf matches the way github renders markdown files very closely. Once it's installed, simply perform the following steps:
+
+1. Drag the file into Chrome to render it
+2. Right click and select Print (Ctrl+P)
+3. Select Save as PDF (Should be the default option)
+
+## Markdown to PDF (Visual Studio Code Extension)
+[Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) is a Visual Studio Code Extension that lets you save markdown files in a variety of formats (including pdf). I think it's nice (especially since I use VS Code to edit markdown files and don't use Chrome regularly) but I prefer the style of [markdown viewer](#markdown-viewer-chrome-extension). Once it's installed, just open the markdown file in VS Code, right click the editor window and select `Markdown PDF: Export (pdf)`. You can play around with the extension settings to change how it renders it, maybe you can find something that looks nicer than markdown viewer.
+
+## pandoc (Linux Terminal)
+[pandoc](https://pandoc.org/) is a CLI tool that you can use to convert pretty much any markup / markdown format to anything other format. You can install it (and its dependecies) using the following:
+```
+sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
+```
+You can then convert your file using:
+```bash
+pandoc example.md -o example.pdf
+pandoc example.md --pdf-engine=xelatex -o example.pdf # Try this to see if it looks better?
+```
+This comes out looking similar to standard redered latex, so it could actually be quite nice! I'm not sure if it has stuff like emoji support / other github-flavoured markdown related stuff, but it could be worth a go.
 
