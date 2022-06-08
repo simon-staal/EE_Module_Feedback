@@ -23,18 +23,91 @@ class FeedbackGenerator:
     def __init__(self) -> None:
         self._feedback = None
 
+    # ----------------------------------------------------
+    # ---------------- Public Methods --------------------
+    # ----------------------------------------------------
+
     def extract_feedback_from_csv(self, 
-            raw_csv: str, 
+            raw_csv_path: str, 
             survey_field_mapping: Dict[str, str] = DEFAULT_SURVEY_FIELD_MAPPING, 
             num_feedback_fields: List[str] = DEFAULT_NUM_FEEDBACK_FIELDS, 
             text_feedback_fields: List[str] = DEFAULT_TEXT_FEEDBACK_FIELDS):
+        """
+        Extracts the feedback from the path specified by raw_csv_path.
+        """
         self._survey_field_mapping = survey_field_mapping
         self._num_feedback_fields = num_feedback_fields
         self._text_feedback_fields = text_feedback_fields
 
-        raw_feedback = self._parse_feedback(raw_csv)
+        raw_feedback = self._parse_feedback(raw_csv_path)
         self._feedback: Dict[str, Dict] = self._process_feedback(raw_feedback)
 
+    def get_feedback(self):
+        """
+        Returns the aggregated feedback as a dictionary of the following format:
+
+        {
+            module_name : {
+                num_feedback_field : average_score,
+                text_feedback_field : [list, of, responses]
+            }
+        }
+        """
+        if not self._feedback:
+            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
+        
+        return self._feedback
+
+    def write_feedback_to_file(self, dest_md_file: str, year: str, feedback: Dict[str, Dict]):
+        """
+        Formats and writes the given feedback (in the format produced by get_feedback()) for a particular year as markdown to the file specified by dest_md_path. If dest_md_path does not exist, the file will be created. To be honest you probably don't need to use this function, but leaving it public just in case.
+        """   
+        with open(dest_md_file, 'w') as out_file:
+            for module, feedback in self._feedback.items():
+                out_file.write(f'### {module}\n')
+                self._write_feedback(out_file, year, feedback)
+    
+        print(f'[INFO] Successfully generated markdown, saved to {dest_md_file}')
+
+    def append_to_feedback_file(self, old_feedback_path: str, dest_feedback_path: str, year: str):
+        """
+        Adds the formatted feedback for a given year to the existing formatted feedback markdown file specified by old_feedback_path, and saves the resulting combined feedback to dest_feedback_path. Will leave old_feedback_path unchanged. If dest_feedback_path does not exist will create a new file.
+        """
+        if not self._feedback:
+            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
+        
+        feedback = self._feedback
+
+        with open(dest_feedback_path, 'w') as out_file:
+            with open(old_feedback_path, 'r') as in_file:
+                curr_module = None
+                while line := in_file.readline():
+                    out_file.write(line)
+                    module_regex_match = re.search(r'(?<=^### )[A-Za-z ()]*$', line)
+                    if module_regex_match:
+                        curr_module = module_regex_match.group(0)
+                        added_new_feedback = False
+
+                    year_regex_match = re.search(r'(?<=^#### )([0-9]{4}-[0-9]{2})|(Older)$', line)
+                    if year_regex_match and not added_new_feedback:
+                        added_new_feedback = True
+                        if curr_module not in feedback:
+                            print(f'[WARNING] Could not find module {curr_module} in processed feedback') 
+                        else:
+                            print(f'[INFO] Wrote feedback for {curr_module}')
+                            self._write_feedback(out_file, year, feedback[curr_module])
+                            feedback.pop(curr_module)
+        print(f'[INFO] Finished generating formatting feedback, the updated feedback file can be found at {dest_feedback_path}')
+        if feedback:
+            print(f'[WARNING] Could not find existing feedback for the following modules: {list(feedback.keys())}')
+            out_file = f'additional_feedback_{year}.md'
+            #print(f'[INFO] Writing formatted feedback for these modules to {out_file}')
+            self.write_feedback_to_file(out_file, year, feedback)
+
+    # ----------------------------------------------------
+    # ---------------- Private Methods -------------------
+    # ----------------------------------------------------
+                
     def _parse_feedback(self, raw_csv: str):
         raw_feedback = {}
 
@@ -90,56 +163,6 @@ class FeedbackGenerator:
 
         print('[INFO] Successfully aggregated feedback')
         return feedback
-
-    def get_feedback(self):
-        if not self._feedback:
-            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
-        
-        return self._feedback
-
-    def write_feedback_to_file(self, dest_md_file: str, year: str, feedback: Dict[str, Dict]):
-        """
-        Formats and writes the feedback
-        """   
-        with open(dest_md_file, 'w') as out_file:
-            for module, feedback in self._feedback.items():
-                out_file.write(f'### {module}\n')
-                self._write_feedback(out_file, year, feedback)
-    
-        print(f'[INFO] Successfully generated markdown, saved to {dest_md_file}')
-
-    def append_to_feedback_file(self, old_feedback_file: str, dest_feedback_file: str, year: str):
-        if not self._feedback:
-            raise Exception('[ERROR] No feedback found. Please call extract_feedback_from_csv first.')
-        
-        feedback = self._feedback
-
-        with open(dest_feedback_file, 'w') as out_file:
-            with open(old_feedback_file, 'r') as in_file:
-                curr_module = None
-                while line := in_file.readline():
-                    out_file.write(line)
-                    module_regex_match = re.search(r'(?<=^### )[A-Za-z ()]*$', line)
-                    if module_regex_match:
-                        curr_module = module_regex_match.group(0)
-                        added_new_feedback = False
-
-                    year_regex_match = re.search(r'(?<=^#### )([0-9]{4}-[0-9]{2})|(Older)$', line) # Remove 'Older' part of regex after 2021-22
-                    if year_regex_match and not added_new_feedback:
-                        added_new_feedback = True
-                        if curr_module not in feedback:
-                            print(f'[WARNING] Could not find module {curr_module} in processed feedback') 
-                        else:
-                            print(f'[INFO] Wrote feedback for {curr_module}')
-                            self._write_feedback(out_file, year, feedback[curr_module])
-                            feedback.pop(curr_module)
-        print(f'[INFO] Finished generating formatting feedback, the updated feedback file can be found at {dest_feedback_file}')
-        if feedback:
-            print(f'[WARNING] Could not find existing feedback for the following modules: {list(feedback.keys())}')
-            out_file = f'additional_feedback_{year}.md'
-            #print(f'[INFO] Writing formatted feedback for these modules to {out_file}')
-            self.write_feedback_to_file(out_file, year, feedback)
-                    
 
     def _write_feedback(self, out_file: TextIOWrapper, year: str, single_feedback: Dict):
         out_file.write(f'#### {year}\n')

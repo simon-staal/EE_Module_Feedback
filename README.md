@@ -2,14 +2,23 @@
 Welcome to the repository with the tools to help maintain the module feedback resources for 3rd and 4th year modules. Hopefully, the previous EEE/EIE departmental representative gave you a brief overview of how to use this repository (harass them to do so if they haven't). Otherwise, you can always reach out to me (Simon Staal) by posting an issue on the repository (or find me on LinkedIn). Please find a guide on how to use the tools in the repository below:
 
 # Table of contents <!-- omit in toc -->
+- [Quick Start](#quick-start)
 - [The module feedback survey](#the-module-feedback-survey)
   - [Adding/Changing fields to the feedback survey](#addingchanging-fields-to-the-feedback-survey)
 - [The python scripts](#the-python-scripts)
 
-## The module feedback survey
+# Quick Start
+1. Clone this repo
+2. Add the survey results as a .csv to the folder
+3. Add the previous year's markdown review to the folder
+4. Run `python3 update_feedback.py` and follow the prompts
+5. Convert the produced markdown to a pdf
+6. Upload both the raw markdown file and the pdf to the [EE OneDrive](https://imperiallondon-my.sharepoint.com/:f:/r/personal/eeearn_ic_ac_uk/Documents/EE%20Resources?csf=1&web=1&e=8DrLe8)
+
+# The module feedback survey
 As the EEE/EIE representative, you are responsible for gathering feedback from the current 3rd / 4th year cohorts regarding the modules available to them. For the most seemless experience, please use a survey similar to the one [here](https://forms.office.com/r/B8bkf2pGsE). Hopefully, the previous representative has a template you can use. You can share an existing survey with whoever the new representative using the microsoft forms UI, and they can create a fresh copy of it, updating the year and adding any new modules. Adding a new module to the survey *should* not break anything (hopefully). Really try to push to get feedback at the end of each term (use email / whatsapp / whatever to ask the students in the 3rd and 4th year cohorts). Make sure you use the same survey for entire duration of the year. Once you have obtained enough survey results, export the results to a excel file using the microsoft forms UI, and then save it as a .csv file.
 
-### Adding/Changing fields to the feedback survey
+## Adding/Changing fields to the feedback survey
 If you would like to change the format of the feedback survey, you will need to update the tooling to ensure everything still works. You might find it useful to read about [how the tooling works](#the-python-scripts) before you try updating it. At the top of the [feedback_generator.py](feedback_generator.py) file, you should find 3 constants:
 ```python
 DEFAULT_SURVEY_FIELD_MAPPING = {
@@ -50,7 +59,10 @@ Any fields in `DEFAULT_TEXT_FEEDBACK_FIELDS` will have their contents rendered a
 
 Fields which start with an `_` (`_term`, `_autumn`, etc.) are used for internal processing, and should not be touched unless you know what you're doing (i.e. you've read and understood the code)
 
-## The python scripts
+# The python scripts
 To generate the feedback for the next year, you will require the following (for simplicity, place all files in the same directory as the scripts):
 - The survey results for the current year saved as a .csv file
 - The previous year's feedback **markdown** (.md) file
+
+To generate the feedback for your year, simply run `python3 update_feedback.py` and follow the prompts! The script itself should be quite simple to read through, it uses the [feedback generator class](feedback_generator.py) to do all the work.
+
