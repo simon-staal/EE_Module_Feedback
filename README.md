@@ -43,6 +43,7 @@ DEFAULT_TEXT_FEEDBACK_FIELDS = ['Comments']
 You need to ensure that the keys of `DEFAULT_SURVEY_FIELD_MAPPING` matches the question text on your form (you can check the headers of the survey feedback csv for the exact text). The mapped value is what will be rendered in the generated markdown as the sub-headings for the relevant feedback fields. You need to define whether these sub-headings represent numeric or text feedback by adding them to the relevant lists (`DEFAULT_NUM_FEEDBACK_FIELDS` for numeric fields and `DEFAULT_TEXT_FEEDBACK_FIELDS` for the textual feedback fields). 
 
 Any fields in `DEFAULT_NUM_FEEDBACK_FIELDS` will be have their results averaged and rendered in the order they are defined in the *Quick Summary* section of a module:
+
     **Quick Summary**
 
     *Average module scores from 6 respondants.*
@@ -52,6 +53,7 @@ Any fields in `DEFAULT_NUM_FEEDBACK_FIELDS` will be have their results averaged 
     - Overall: 2.5 out of 5
 
 Any fields in `DEFAULT_TEXT_FEEDBACK_FIELDS` will have their contents rendered after the *Quick Summary* in the order in which they are defined, and will use their field name as the header:
+
     **Comments**
 
     This module is not be to judged by it's title - whilst the concepts themselves are quite fundamental to developing a foundation on AI, and despite the interesting and humorous delivery of the professor, the tutorials and labs proved to be barely effective in preparing for the final exam which turned out be the most challenging out of all the years taught and extremely time consuming. 
