@@ -1,7 +1,7 @@
 # EIE 3<sup>rd</sup> Year Modules <!-- omit in toc -->
-This document is a comprehensive guide aiming to make it easier for EIE (and EEE) students to choose their modules for 3<sup>rd</sup> year, as well as containing general advice for the year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. For modules shared between EEE and EIE, reviews are marked EEE or EIE (and if left blank are unknown), but the numeric scores are EIE only.
+This document is a comprehensive guide aiming to make it easier for EEE (and EIE) students to choose their modules for 3<sup>rd</sup> year, as well as containing general advice for the year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. For modules shared between EEE and EIE, reviews are marked EEE or EIE (and if left blank are unknown), but the numeric scores are EEE only.
 
-This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
+This document is maintained by the EEE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
 
 # Table of Contents <!-- omit in toc -->
 - [General Advice](#general-advice)
@@ -17,31 +17,32 @@ This document is maintained by the EIE departmental representative, instructions
     - [Control Engineering](#control-engineering)
       - [2021-22](#2021-22-1)
       - [2020-21](#2020-21-2)
+    - [Artificial Intelligence](#artificial-intelligence)
+      - [2021-22](#2021-22-3)
+      - [2020-21](#2020-21-4)     
+    - [Communication Networks](#communication-networks)
+      - [2021-22](#2021-22-4)
+      - [2020-21](#2020-21-5) 
+    - [Machine Learning (EE)](#machine-learning-ee)
+      - [2021-22](#2021-22-5)
+      - [2020-21](#2020-21-6)      
     - [Mathematics for Signals and Systems](#mathematics-for-signals-and-systems)
       - [2021-22](#2021-22-2)
       - [2020-21](#2020-21-3)
-    - [Artificial Intelligence](#artificial-intelligence)
-      - [2021-22](#2021-22-3)
-      - [2020-21](#2020-21-4)
-    - [Communication Networks](#communication-networks)
-      - [2021-22](#2021-22-4)
-      - [2020-21](#2020-21-5)
-    - [Machine Learning (EE)](#machine-learning-ee)
-      - [2021-22](#2021-22-5)
-      - [2020-21](#2020-21-6)
-  - [DoC Modules](#doc-modules)
-    - [Operations Research](#operations-research)
-      - [2021-22](#2021-22-6)
-      - [Older](#older)
-    - [Advanced Computer Architecture](#advanced-computer-architecture)
-      - [2021-22](#2021-22-7)
-      - [Older](#older-1)
-    - [Simulation and Modelling](#simulation-and-modelling)
-    - [Machine Learning (DoC)](#machine-learning-doc)
-      - [2021-22](#2021-22-8)
-      - [Older](#older-2)
-    - [Type Systems for Programming Languages](#type-systems-for-programming-languages)
-      - [Older](#older-3)
+    - [Analogue Integrated Circuits and Systems]
+      - [2020-21]
+    - [Biomedical Electronics]
+      - [2020-21]
+    - [Electrical Energy Systems]
+      - [2020-21]
+    - [Microwave Technology]
+      - [2021-22]
+      - [2020-21]
+    - [Optoelectronics]
+      - [2021-22]
+    - [Semiconductor Devices]
+      - [2021-22]
+    
 - [Spring Term](#spring-term)
   - [EE Modules](#ee-modules)
     - [Digital System Design](#digital-system-design)
@@ -56,21 +57,17 @@ This document is maintained by the EIE departmental representative, instructions
       - [2020-21](#2020-21-11)
     - [Deep Learning](#deep-learning)
       - [2020-21](#2020-21-12)
-    - [Robotic Manipulation](#robotic-manipulation)
+    - [Instrumentation]
+      - [2020-21]
+    - [Power Electronics]
+      - [2020-21]
+      - []
     - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
       - [2020-21](#2020-21-13)
-  - [DoC Modules](#doc-modules-1)
-    - [Graphics](#graphics)
-    - [Computer Vision](#computer-vision)
-    - [Robotics](#robotics)
-      - [2021-22](#2021-22-9)
-      - [Older](#older-4)
-    - [Network and Web Security](#network-and-web-security)
-    - [System Performance Engineering](#system-performance-engineering)
-      - [Older](#older-5)
-    - [Distributed Algorithms](#distributed-algorithms)
-    - [Advanced Databases](#advanced-databases)
-      - [2021-22](#2021-22-10)
+    - [Robotic Manipulation](#robotic-manipulation)
+      - [2021-22]
+    - [Managing Engineering Projects (Management Stream Only)]
+      - [2021-22]
 
 <div style="page-break-after: always;"></div>
 
@@ -211,31 +208,6 @@ wrecked by the exam because I didn’t revise enough. You definitely need to put
 actual content isn’t too bad. I also had to cram all of maths for signals but it was helpful even for 4th
 year stuff😊 - Simi
 
-### Mathematics for Signals and Systems
-**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
-
-#### 2021-22
-The module is not hard and it would be a great choice if you just want to get some good grades. The content is almost repeating.
-
-
-Pretty standard but pretty neat module, if you are EIE/EEE, your 2nd year Mathematics (Mathematics for Engineers II) module literally has the copied and pasted notes from this module, so overlap is an understatement, this is the linear algebra part of your course copied over word for word, no exaggeration, (SVD, Fundemental Subspaces, Diagonalization, Eigenvalues and Eigenvectors, etc) so if you banged that out in 2nd year, this one is a good one to take for some guaranteed marks. The exam varies little year on year but this year we had more curveballs probably due to the online-setting. For any topics where you lack understanding use the 2nd year notes it will help more, or use the Gil Strang youtube videos. Although as updated advice for those using the new EE course I whole-heartedly just suggest going over your old notes and lectures from 2nd year because that helped me more than actually attending the lectures did. There is a lot of hidden value in this module though because a lot of the concepts you pick up and refine end up being heavily utilised in optimization, as well as ML (particularly with convolutional neural networks), honestly just take it to fill in one of your mandated EE slots if you’re like me and have a preference for the DoC modules. - Aryan
-
-
-Nice professor in my opinion. UTAs/GTAs are really useful too on edStem so this module flowed really
-well. Yeah as Aryan covered above, most of the content is just the same as that in 2nd Year. - Nelson
-
-#### 2020-21
-Get watching those Gil Strang YouTube vids early! That really made all the difference come exam time. There are a lot of shortcuts and tricks with linear algebra. If you try and use the slides alone you will fill a lot more pages and be prone to error.
-
-
-The lectures don't cover much content compared to any other modules so do practice examples a lot. Hence I also suggest to get a linear algebra book to get more detail and learn the tricks of how to do things. The exam was allright in my opinion covers mostly what has been covered and there are quite a few past exam papers. This module is essential to quite a few others.
-
-
-Do watch Gil Strang's lectures before the start of the term. He covers the course quite quickly, so it doesn't leave too much room to understand the material. In addition he tend to be more focused on the application of linear algebra, rather then the math. But this is third year, so there is the expectation that your math is pretty good. In sum do yourself a favour and spend two weeks prior to term watching Gil Strangs, so you can understand his lectures. Also for tls(not covered by Gil strangs) you might consider watching this video on youtube: Pillai "Ax= b, Least Squares (LS) & Total Least Squares (TLS)".
-
-
-As everyone else has probably mentioned, start watching Gilbert Strang’s lecturers before the start of term and get the textbook (borrow it from the library- it has at least 10 copies). Dragotti’s slides do not help you pick up the techniques you need to solve linear algebra problems, because they focus more on applications. The way to do well is to study the techniques on your own using GIlbert’s resources, or anything else you may find useful, and then go over Dragotti’s slides to check understanding and learn how to tackle more application-oriented problems. Dragotti is quite happy to answer questions, so it is worth asking him if you’re stuck with anything.
-
 ### Artificial Intelligence
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60004&s=J3#start)**
 
@@ -312,69 +284,87 @@ and the forum were a great help too. - Aaman
 
 Did not go to a single lecture and was absolutely fine. I read the book and the extension to it. Oh wait I’ll attach it. http://amlbook.com/ which is the learning from data book. If you read that and some of the ebook chapters on the website, you’ll be fine. He even has video lectures (Caltech I think). It is quite maths and theory involved. Always great to look for other sources online no matter what module you’re taking. Very good and useful module for the CV – Simi
 
-
-## DoC Modules
-Things to know about DoC modules:
-- DoC modules are typically 20% coursework based 80% exam based. Exams take place on the last week of term, and are predeeded by week where no new material can be taught (no lectures last 2 weeks of term).
-- They do not release past paper solutions. There are instead crowd-sourced solutions which can be found [here](https://imperiallondon-my.sharepoint.com/:f:/r/personal/comparn_ic_ac_uk/Documents/DoC%20Secret%20Revision%20Folder?csf=1&web=1&e=wFa3K0)
-- Some courses will assume you have knowledge which you might be missing (e.g. Operating Systems). A 4th year DoC student Eugene has a repository of rendered LaTeX notes, which are really useful in covering some of this content, which you can find [here](https://github.com/lin-e/imperial-revision).
-- You can find seperate DoC module feedback [here](https://imperiallondon-my.sharepoint.com/:w:/r/personal/comparn_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7BDB61C285-547E-4CD7-8A23-4D9F8BCFD601%7D&file=Course%20Selection%20Advice%20-%20Year%203.docx&action=default&mobileredirect=true), but keep in mind it contains feedback from students with a different background.
-
-### Operations Research
-**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/60016/)**
+### Mathematics for Signals and Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
 
 #### 2021-22
-
-#### Older
-Incredibly dull in my opinion. Coursework marked harshly. Would not do again. - JZ (2020-21)
+The module is not hard and it would be a great choice if you just want to get some good grades. The content is almost repeating.
 
 
-One of the most interesting modules I’ve taken (personal opinion). Noteworthy topics include  linear optimisation (aside: this is a prereq for CO477 Optimisation and CO422 Computational Finance), game theory and minimax. Applications of knowledge in this course include optimisations in business (which business decision?) , finance (which investment?) and logistics (which route to take and where to build warehouses?). Worth noting that an ex-CEO of Singapore Airlines did a Masters in OR at Imperial (not sure if he applied it for route-planning, which--interestingly--appeared as a past year question in this module). First half (Casale -- No longer lecturing) is a tad bit slow (but some parts are heavy), and the second half (Misener) is well-paced and well-taught. I genuinely felt motivated to learn the material, and while there are some proofs to memorise, they aren’t heavy and come naturally once your understanding is sound. Coursework is doable, exam can be difficult (and contain some unseen material) but okay if you do the tutorial sheets. For EIE: No extra effort required. Slightly useful to go through some basic material in Logic to make sense of some logical statements (in Integer Programming), but not strictly required. For those considering taking EEE Maths for Signals and Systems: while both modules cover a lot of linear algebra, there isn’t much overlap except for some matrix fundamentals. I did not see taking both having an advantage/disadvantage. -LH (2019/20) 
+Pretty standard but pretty neat module, if you are EIE/EEE, your 2nd year Mathematics (Mathematics for Engineers II) module literally has the copied and pasted notes from this module, so overlap is an understatement, this is the linear algebra part of your course copied over word for word, no exaggeration, (SVD, Fundemental Subspaces, Diagonalization, Eigenvalues and Eigenvectors, etc) so if you banged that out in 2nd year, this one is a good one to take for some guaranteed marks. The exam varies little year on year but this year we had more curveballs probably due to the online-setting. For any topics where you lack understanding use the 2nd year notes it will help more, or use the Gil Strang youtube videos. Although as updated advice for those using the new EE course I whole-heartedly just suggest going over your old notes and lectures from 2nd year because that helped me more than actually attending the lectures did. There is a lot of hidden value in this module though because a lot of the concepts you pick up and refine end up being heavily utilised in optimization, as well as ML (particularly with convolutional neural networks), honestly just take it to fill in one of your mandated EE slots if you’re like me and have a preference for the DoC modules. - Aryan
 
-### Advanced Computer Architecture
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60001/)**
 
-**Course Page: [here](https://www.doc.ic.ac.uk/~phjk/AdvancedCompArchitecture/aca20/)**
+Nice professor in my opinion. UTAs/GTAs are really useful too on edStem so this module flowed really
+well. Yeah as Aryan covered above, most of the content is just the same as that in 2nd Year. - Nelson
 
-**Assumes knowledge of operating systems (kernel, page faults, virtual memory)**
+#### 2020-21
+Get watching those Gil Strang YouTube vids early! That really made all the difference come exam time. There are a lot of shortcuts and tricks with linear algebra. If you try and use the slides alone you will fill a lot more pages and be prone to error.
+
+
+The lectures don't cover much content compared to any other modules so do practice examples a lot. Hence I also suggest to get a linear algebra book to get more detail and learn the tricks of how to do things. The exam was allright in my opinion covers mostly what has been covered and there are quite a few past exam papers. This module is essential to quite a few others.
+
+
+Do watch Gil Strang's lectures before the start of the term. He covers the course quite quickly, so it doesn't leave too much room to understand the material. In addition he tend to be more focused on the application of linear algebra, rather then the math. But this is third year, so there is the expectation that your math is pretty good. In sum do yourself a favour and spend two weeks prior to term watching Gil Strangs, so you can understand his lectures. Also for tls(not covered by Gil strangs) you might consider watching this video on youtube: Pillai "Ax= b, Least Squares (LS) & Total Least Squares (TLS)".
+
+
+As everyone else has probably mentioned, start watching Gilbert Strang’s lecturers before the start of term and get the textbook (borrow it from the library- it has at least 10 copies). Dragotti’s slides do not help you pick up the techniques you need to solve linear algebra problems, because they focus more on applications. The way to do well is to study the techniques on your own using GIlbert’s resources, or anything else you may find useful, and then go over Dragotti’s slides to check understanding and learn how to tackle more application-oriented problems. Dragotti is quite happy to answer questions, so it is worth asking him if you’re stuck with anything.
+
+### Analogue Integrated Circuits and Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60003&s=T3#start)**
+
+#### 2020-21
+Personally, a game changer for me in terms of analogue electronics. Used to hate analogue in year 1 and 2 but Toumazou provides a different outlook on analogue (which for me made it way easier to understand). The lectures were good, they were recorded and his scribbles on the pages were great too. Sure, the exam questions remain pretty similar every year but it means that I focused way more on the topics I wanted to learn more in depth about. Would recommend for anyone looking for a different, more practical outlook with analogue but just don’t expect like you’re going to understand as in depth as you’d imagine. - HH
+
+I didn’t really learn the content in depth but the exams very much repeat themselves so you can still do well. I used to be awful at analogue in year 1 so don’t let that deter you too much as this module made so much sense. I remember actually enjoying the content – Simi
+
+The exams are repetitive but if you’re looking for a more intuitive understanding of analogue circuits without all the maths in 1st and 2nd year, this course is really good. Even though I maybe didn’t learn concepts in a lot of depth, I still remember and understand all the concepts he taught because the way he teaches in my opinion is quite memorable. I think this is the only analogue module that has this specialty in all 4 years in this department. He also brings in a lot of practical applications of the concepts he teaches, the more higher-level circuitry you look at in the course is used a lot in industry. 
+
+My placement was in a chip design company, and I used a lot of theory from his lectures – Karina
+
+### Biomedical Electronics
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60005&s=T3#start)**
+
+#### 2020-21 
+This is a weird one – the actual concept is very interesting, but for me, it does require a real interest to keep up with all the material. It is quite a lot, and need to have a good understanding. Not many past papers, which I didn’t really like but what to do, so make sure you do ALL of them. The exam was pretty standard and (for me) easier than expected, which was a relief as I was particularly stressed for it beforehands. Anyway, the exercises help, but make sure you remember circuits pretty well (you can revisit them on the spot, but it helps if you are up to date with it). I didn’t really enjoy the change of lecturers, as everyone was having the resources in a different place, which is a bit confusing to keep track of, but it is what it is. Pantelis and Constandinou are pretty interesting, and the lecture by Mitcheson is great – Valy 
+
+This module pulls together parts from content in the first two years mainly analogue circuits, however a basic understanding is all that's needed. The content is enjoyable to learn about and feels rewarding. The lecturer is very slow with emails if they even bother to reply at all so hopefully you can go in person to their office to get a response. However, the exam is challenging and requires a good understanding to answer questions not directly taken from the notes. 
+
+Great module for engineers, it forces you to think about the practical aspect of engineering. Most modules prior, with the exception of analogue 2 are theoretical. What do I mean? Most modules tend to have one answer and one approach, which is not real engineering. This will be one of the modules that expect you to approximate and make assumptions to make your calculations easier. If you have no interest in biology then, it will not be a pleasant experience. Understand how to apply the knowledge and attend all gta hours, they are very useful. Content is a lot but not too hard to understand, do as many papers as you can, it will help you get used to the style of the exams. 
+
+It’s a pretty general overview of the field which is fun. Analogue electronics massively helped in my understanding. You do have to somewhat want to learn about biology. I thought the module was really nice and actually watched some lectures. Lots of practise on the past papers is needed but once it clicks, the exams aren’t too bad. - Simi 
+
+### Electrical Energy Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60012&s=T3#start)**
+
+#### 2020-21
+Well taught module. Dr. Chaudhuri really knows the ins and outs of Power Systems and explains it really well. Always ask questions after lectures if you have any doubts. Exam was easy because it was open-book this year.... if it wasn’t I probably would have done terribly because of the amount of formulas there are. - Z 
+
+The material for us was split into two parts taught by separate lecturers. Both were brilliant at explaining everything and providing plenty of examples to practice and understand. Very equation and calculation heavy topics which can be beneficial or detrimental to you individually depending on if you a good with that. 
+
+Taught by two different lecturers, generally focused on power generation and transmission as well as some stuff on generators. Fairly tough but not too bad. Exams can vary 
+
+Bit confusing module (partly because of the change of lecturers, in my opinion they are pretty different). I couldn’t really understand Tei and the explantions didn’t feel particularly coherent. Didn’t go to most lectures in the end as they couldn’t keep my attention. However – make sure you watch the recordings, as the ppt’s Fei gives are incomplete, and in our case, the completed versions were never uploaded! Definitely need to copy all the notes down to make sure you are covered for exams. Chaudhuri is more enjoyable in terms of thoroughly explaining the material and the slides cover pretty much everything (for the rest do ALL the exam papers to make sure you get as much practice as possible). Make sure you understand the material as he goes along and don’t leave any gaps for the end, you will struggle to understand everything and work through everything. As a person who loves energy, I found this module too detailed and focued on faults, rather than giving a broader understanding of energy systems (there was a bit in the beginning, but I would have liked a broader idea, but this is pure personal preference and not an actual comment for the module, just make sure you know what to expect beforehands). 
+
+### Microwave Technology
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60022&s=T3#start)**
 
 #### 2021-22
-I’m ngl this was probably by far my favourite course from Autumn term, and arguably of my entire Imperial degree experience thus far (although still with time to go). While the material may seem abstract at first, Paul Kelly always manages to find a way to competently and clearly explain it in a way that makes you feel like you always knew the intuition behind it, and always presents real world examples underlying all the concepts we learned. I particularly enjoyed the sidechannels section of the course, as it overlapped CompArch with Security giving even more practical flavour. The coursework took a fair bit of time though this year, requiring quite a bit of exploration, you have two tasks which vary little in topic year on year but vary on code. The first task requires you to modify a simulator processor’s configuration (cache, exec units etc), in order to run a benchmark program with minimal energy consumption, the second task requires you to optimize code to hasten the exec time of a given piece of code, these courseworks took quite a lot of time investment but for rather low returns (only 10% each). Exam is pretty interesting in that you get a recent article on a new-ish processor specification about a month in advance to pore over, and you get asked questions based on this tying into the course, some may like it and others may not, but imo it was a pretty cool way to assess our understanding. The tutorials help reinforce understanding and have good discussion, size isn’t overtly large so everyone more or less gets a say, and when you’re lacking from knowledge from a given topic, the course textbook compensates for this and then some, it’s well supplied and well rounded. Honestly, if you’re EIE and you loved first year DECA, and you loved second year ISA&C, this module is an absolute no-brainer, take it. -Aryan
+Prof. Lucyszyn is very passionate about his research and happily answers any questions, so if you have a genuine interest in microwave and RF, you can really learn a lot. Otherwise, it’s more trouble than it’s worth. Difficult, little guidance and I found the exam scope quite vague. The course in some ways follows from 2nd year Electromagnetism, but it’s a lot more nuanced and advanced. You need to do a lot of work on your own before you can understand the slides and other than past papers there are no exercises you can use for practice. Preparing for exams was really confusing and I was really unsure how to approach it. Though coursework (that was introduced in 2021/22) is easy marks (worth 20% of the module) and quite interesting. 
 
-As others said, the CW is very lengthy so start your CW early! You have 2 separate reports to be completed with each having 2 weeks between the day they’re given and their deadline so make sure you put like 2-3 hours in per day straight from day 1 otherwise you end up having to cram towards the end like I did which resulted in me falling behind on content from other modules. -Nelson
+#### 2020-21
+I personally didn't find the teaching too bad, it's just the exam expects you to be 100% and beyond in the subject and the preparation for the exam is just doing exam papers, there are no problem sheets or anything to ease you into the course. While they did try and help toy with the questions, the support wasn't that great to be honest. It's just an advanced course with too little time and little support. I would choose it if you covered it slightly beforehand or you would need to put a bit of work in during the term to get a decent grade out of the exam. If you prepare well enough it's not that bad. You just need to study elsewhere, as the lecture notes are not enough but unfortunately microwaves is one of those niche areas in EE. 
 
+### Optoelectronics
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60023&s=T3#start)**
 
-#### Older
-Honestly best course and best lecturer. Paul Kelly can seamlessly explain any complicated concept, and even though everything was remote, his lectures were great. In terms of the course content: when it comes to coursework, Computing students might enjoy it slightly more than EIE students, as most of it rotates around the high level perspective of computer architecture (in CW1 you optimize a processor’s configuration for a specific program, and in CW2 you optimize a C program for a specific processor). On the theory side (lectures), you touch on many complicated and fundamental computer architecture concepts to design a processor or optimize software when interacting with it, and you can use those in other modules or projects or even low-level / hardware interviews (especially EIE). For the exam, it’s different than the usual, you get a paper on a recent processor to study a month before and most exam questions are about applying the lectures content to that processor (even though the exam went okay-ish, I'd take that module again). A definite go if you are in EIE. EDIT: after the module, lookup pwn and hardware exploits from CTFs, you’ll know the hidden value of this module. I think there should be some merge with netsec in some way!  – Jaafar (2020-21)
+#### 2020-21
+Slides are a bit heavy, a lot of maths and wave theory. Personally found it interesting. Exam is generally quite heavily based off of slides 
 
-
-Easily my favourite course from Autumn term. Paul Kelly is really passionate about the subject and always happy to answer questions. Coursework was way too time consuming though imo. Exam was actually quite interesting since it’s based around a research article. Even if you aren’t sure of an answer – if you explain your reasoning, he will generally give credit I think. For revision, a bunch of us got together and answered past paper questions using this year’s article (also, make sure you know the article really well) - JZ (2020-21)
-
-### Simulation and Modelling
-**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/60020/)**
-
-
-### Machine Learning (DoC)
-**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/70050/)**
-
-**Course Page: [here](https://intro2ml.pages.doc.ic.ac.uk/autumn2021/)**
+### Semiconductor Devices
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60029&s=T3#start)**
 
 #### 2021-22
-Honestly a good course well worth taking if you’re fresh to this area, it gives you a rounded-base of competency in most of the useful and applied ML techniques and I hear has a lot of overlap with Spring Term’s Computer Vision. The Coursework took a little bit of time to do but ultimately was not that hard and with a good group you can bang out 90+% on both of them, as it’s just a matter of passing LabTS tests and having a legible report. Make sure to do that so you have a good cushion for the exam. Exam itself was not that bad this year, there are tiny curveballs here and there to compensate for the online setting and a reduced amount of recall questions to boot, and you’ll be asked predominantly questions based on the techniques you learnt which rely on quite simple applications of maths to do. If you want a decent grade while also learning stuff that’s more relevant than most, take it.  
-
-(As an EIE student, be aware that by taking this module over the EE ML module – which seemed to just be entirely theoretical, you do forfeit taking the EE Deep Learning module in the Spring Term, which has a lot more application, as EE ML is the pre-req, don’t deep it though because DoC has a DL module in the 4th year so you’re calm) - Aryan
-
-#### Older
-Pretty well taught, good introduction. Get a good group for the coursework. If you’re EIE: do the DoC ML module if you want more practical stuff. Haven’t heard any good things about EEE ML course, which is also a lot more theoretical. - JZ (2019/20)
-
-### Type Systems for Programming Languages
-**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/60023/)**
-
-#### Older
-Agree with other comments that this is a good module, and that exam is very doable (if you put in effort and time to learn definitions, which are then used in derivations). While proofs are difficult and are bulk of the lectures to motivate applications and derivations, fortunately they are unexamined. Steffen is an amazing lecturer who loves the content and does his best to motivate you to appreciate type systems. While this course mostly deals with theoretical CS, its applications are not too far-fetched (e.g. implementing a type inference system (duh)). This course also serves as an ad for Steffen’s research topics, which he encourages students to consider by the end of the module. 
-
-
-For EIE: DoC students will have an advantage of knowing lambda calculus and functional programming (though these aren’t strict prereqs and he will go through some relevant content). I found it helpful to go through Dr. John Wickerson’s lambda calculus lecture PDF: https://johnwickerson.github.io/talks/modcomp_lambda_2015.pdf, as well as a Haskell crash course: https://www.youtube.com/watch?v=02_H3LjqMr8). It is possible to score well without revising these fundamentals though. Also, this course is (very slightly) helpful if you proceed to take HLP in Spring EEE, which uses F# (F# implements a Hindley-Milner type system, briefly covered in this module) -LH (2019/20) 
+A brand new formulation of the old Y1 and Y2 semiconductor devices modules. I would say the content is *very* extensive but not overly difficult to follow, as long as you manage to keep up with the lectures. There are a lot of nice problem sheets and sample questions available, and the 2021-22 exam was stupidly easy compared to the actual content of the course, which can be dense and difficult to conceptualize some times. Nevertheless, I wholeheartedly recommend this module for anyone with an interest in solid-state physics and the fundamentals of transistor characteristics, which are, in some sense optional, but also very helpful to know for both analogue and digital VLSI design. The lecturer, Dr. Duranni, was very good at teaching this module with helpful illustrations and diagrams, and was more than happy to answer any solid-state physics/semiconductor questions after the lecture.
 
 # Spring Term
 ## EE Modules
@@ -456,70 +446,35 @@ Didn’t watch a single lecture and still got a decent grade. - Daryl
 
 Not a very hard module if you can learn stuff yourself. You really don’t have to go to the lectures I think but it’s good to give your day routine. The Google Colab stuff was actually fun and machine learning helped. Use the feedback in the interim report because they like you to explain stuff in a certain way. Do not think you can leave the report last minute, I tried this and almost failed the module so make sure you leave time to run simulations, write up and format. Also split up the notebook running between mates and computers if you can. – Simi
 
+### Instrumentation
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60018&s=T3#start)**
+
+#### 2020-21
+Really good module overall that touches the tip of the iceberg of the art of instrumentation. The content is good but what really makes this module is Papavassiliou. He is a super helpful lecturer and provides a ton of practical engineering advice. The coursework seemed very weird to start off with and admittingly it took a while to fully understand what was required. Since it was remote, everything was done in LTSpice so it was a good way to learn how to use it. Also, the GTAs were fantastic too. They knew what they were talking about and provided a very student-esque approach/outlook to problems. Would recommend to anyone interested in instrumentation / biomedical / analogue. - HH
+
+### Power Electronics
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60024&s=T3#start)**
+
+#### 2020-21
+Really good module, especially if you’re at all interested in switch mode power supplies or control. Due to being remote, there was no practical aspect so everything was in Matlab and LTSpice. The CW ended up being to design a full PC power supply. Mitcheson is a pretty good lecturer and the GTA was really helpful. Initially the CW was straightforward from the notes but got a lot more difficult by the end.
+
+Great module to learn more about switch mode power supplies. I was remote so it was all LTSpice for me which requires A LOT of love and patience. Make sure you leave good time to write up the report and try and record results as you go. The CW gets harder as you have to do more complex simulations/ designs. The GTAs are incredible like please ask them anything – they are so useful and really want you to succeed.  Mitcheson is the same. I didn’t really attend lectures and still got a decent grade. Finally when you’re writing the report or presenting, don’t linger on sections too long. Anyway overall really enjoyable 
+
+### Principles of Classical and Modern Radar Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60031&s=J3#start)**
+
+#### 2020-21
+Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot. (EEE)
 
 ### Robotic Manipulation
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60030&s=J3#start)**
 
 **This module was introduced in 2021-22**
 
-
-### Principles of Classical and Modern Radar Systems
-**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60031&s=J3#start)**
-
-**This module was not available for EIE in 2021-22, so there is no feedback for it**
-
-#### 2020-21
-Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot. (EEE)
-
-## DoC Modules
-Things to know about DoC modules:
-- DoC modules are typically 20% coursework based 80% exam based. Exams take place on the last week of term, and are predeeded by week where no new material can be taught (no lectures last 2 weeks of term).
-- They do not release past paper solutions. There are instead crowd-sourced solutions which can be found [here](https://imperiallondon-my.sharepoint.com/:f:/r/personal/comparn_ic_ac_uk/Documents/DoC%20Secret%20Revision%20Folder?csf=1&web=1&e=wFa3K0)
-- Some courses will assume you have knowledge which you might be missing (e.g. Operating Systems). A 4th year DoC student Eugene has a repository of rendered LaTeX notes, which are really useful in covering some of this content, which you can find [here](https://github.com/lin-e/imperial-revision).
-- You can find seperate DoC module feedback [here](https://imperiallondon-my.sharepoint.com/:w:/r/personal/comparn_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7BDB61C285-547E-4CD7-8A23-4D9F8BCFD601%7D&file=Course%20Selection%20Advice%20-%20Year%203.docx&action=default&mobileredirect=true), but keep in mind it contains feedback from students with a different background.
-
-
-### Graphics
-**Imperial Module Page: [here](https://www.imperial.ac.uk/computing/current-students/courses/60005/)**
-
-
-### Computer Vision
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60006)**
-
-
-### Robotics
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60019)**
+### Managing Engineering Projects
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60020&s=D3#start)**
 
 #### 2021-22
+Get working sooner rather than later with this module, assessments aren’t too difficult but can be time consuming 
 
-#### Older
-Really well taught. Not that much lecture content to go through since most of the content is practicals. Practicals etc generally pretty easy. Taught remotely in 2021 using Lua + CoppeliaSim. Get a good group but also make sure you put in the effort (really useful for prepping for exams) - JZ (2020-21)
-
-### Network and Web Security
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60015)**
-
-**Course Page: [here](https://331.cybersec.fun/)**
-
-**Simon's Lab Notes: [here](https://github.com/sts219/security_2022_labs)**
-
-
-### System Performance Engineering
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60017)**
-
-**Course Page (First half): [here](https://co339.pages.doc.ic.ac.uk/)**
-
-**Important Note: The lecturer for the second half of the course changed in 2021-22, keep this in mind when looking at older reviews**
-
-
-#### Older
-Holger’s part was really interesting, pretty well taught imo. Recommend taking ACA if you’re thinking of taking this since he talks about architecture quite a bit. Giuliano’s half was a lot more dull, but the slides and tutorials are good prep for the exam. Holger’s half is harder than Giuliano’s imo. - JZ (2020-21)
-
-### Distributed Algorithms
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60009)**
-
-
-### Advanced Databases
-**Imperial Module Page: [here](http://www.imperial.ac.uk/computing/current-students/courses/60002)**
-
-#### 2021-22
-Quite hard and confusing (for me). It is getting harder year by year, maybe because it becomes open book these two years. Do take a look at the past papers for 2019-2020 and 2020-2021, it removes almost all simple and standard questions compared to previous years. The slides do not show every detail, and you need to search/ask by yourself. The tutorial sheets and slides only contain easy questions and provide simple examples, while the exam is way harder and complex.  It requires you to fully understand every aspect of the material. If you go and check the answers for previous years, some questions may contain 4-5 alternative answers, and no one know which is the correct one (for most of the time I would come up with a 6th answer). Also, for EIE, do teach yourself SQL before you choose this module, though it does not mention so.
+As mentioned above, assessments can be time consuming so get started with them as soon as possible. Some of the project management things explained in the module can be very useful for future internships/placements. The lecturer offers feedback on the essays/reports before you have to do the final submission so definitely send her a draft and make use of the feedback she gives. 
