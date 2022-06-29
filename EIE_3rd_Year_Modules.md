@@ -1,5 +1,5 @@
 # EIE 3<sup>rd</sup> Year Modules <!-- omit in toc -->
-This document is a comprehensive guide aiming to make it easier for EIE (and EEE) students to choose their modules for 3<sup>rd</sup> year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. For modules shared between EEE and EIE, reviews are marked EEE or EIE (and if left blank are unknown).
+This document is a comprehensive guide aiming to make it easier for EIE (and EEE) students to choose their modules for 3<sup>rd</sup> year, as well as containing general advice for the year. Additional information on modules can be found by looking at SOLE survey results (see [here](http://www.imperial.ac.uk/students/academic-support/student-surveys/ug-student-surveys/ug-sole/ug-sole-results/)), although if you're looking for a more *unfiltered* view then you're probably in the right place. For modules shared between EEE and EIE, reviews are marked EEE or EIE (and if left blank are unknown), but the numeric scores are EIE only.
 
 This document is maintained by the EIE departmental representative, instructions to maintain can be found [here](https://github.com/sts219/EE_Module_Feedback). If you'd like to add feedback, please submit it [here](https://forms.office.com/r/B8bkf2pGsE) **(Please check that the year of the survey matches your current academic year, and if it doesn't contact your dep rep!)**
 
@@ -255,8 +255,7 @@ In my opinion, I would say that this module’s displayed commitment time is hig
 
 
 #### 2020-21
-I personally found the lecturer Jeremy Pitt to be brilliant at making the material engaging and helpful in any issues people had. The content is enjoyable to work through. The tutorials do not fully cover the knowledge needed for the exam but are very useful to do alongside past years papers. Unlike some modules, a genuine understanding of the course is needed for the exam specifically with things relating to
-Prolog.
+I personally found the lecturer Jeremy Pitt to be brilliant at making the material engaging and helpful in any issues people had. The content is enjoyable to work through. The tutorials do not fully cover the knowledge needed for the exam but are very useful to do alongside past years papers. Unlike some modules, a genuine understanding of the course is needed for the exam specifically with things relating to Prolog.
 
 ### Communication Networks
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60006&s=J3#start)**
@@ -291,7 +290,7 @@ First 5 weeks of lecture slides are hell to go through and understand thoroughly
 - Q2 – Neural Networks or Learning algorithms, 
 - Q3 – SVMs, 
 - Q4 – Clustering or NN classification (but this is me recalling from memory so take it with a grain of salt). 
-Overall, despite how poor in my opinion the module was and how difficult it was to get through the lecturer’s content, it ended up being my favourite module from Autumn and what I found most interesting; would gladly take it again. -Nelson
+Overall, despite how poor in my opinion the module was and how difficult it was to get through the lecturer’s content, it ended up being my favourite module from Autumn and what I found most interesting; would gladly take it again. -Nelson (EIE)
 
 
 #### 2020-21
