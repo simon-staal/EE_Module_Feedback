@@ -17,57 +17,116 @@ This document is maintained by the EEE departmental representative, instructions
     - [Control Engineering](#control-engineering)
       - [2021-22](#2021-22-1)
       - [2020-21](#2020-21-2)
-    - [Artificial Intelligence](#artificial-intelligence)
-      - [2021-22](#2021-22-3)
-      - [2020-21](#2020-21-4)     
-    - [Communication Networks](#communication-networks)
-      - [2021-22](#2021-22-4)
-      - [2020-21](#2020-21-5) 
-    - [Machine Learning (EE)](#machine-learning-ee)
-      - [2021-22](#2021-22-5)
-      - [2020-21](#2020-21-6)      
     - [Mathematics for Signals and Systems](#mathematics-for-signals-and-systems)
       - [2021-22](#2021-22-2)
       - [2020-21](#2020-21-3)
-    - [Analogue Integrated Circuits and Systems]
-      - [2020-21]
-    - [Biomedical Electronics]
-      - [2020-21]
-    - [Electrical Energy Systems]
-      - [2020-21]
-    - [Microwave Technology]
-      - [2021-22]
-      - [2020-21]
-    - [Optoelectronics]
-      - [2021-22]
-    - [Semiconductor Devices]
-      - [2021-22]
-    
+    - [Artificial Intelligence](#artificial-intelligence)
+      - [2021-22](#2021-22-3)
+      - [2020-21](#2020-21-4)
+    - [Communication Networks](#communication-networks)
+      - [2021-22](#2021-22-4)
+      - [2020-21](#2020-21-5)
+    - [Machine Learning (EE)](#machine-learning-ee)
+      - [2021-22](#2021-22-5)
+      - [2020-21](#2020-21-6)
+    - [Analogue Integrated Circuits and Systems](#analogue-integrated-circuits-and-systems)
+      - [2020-21](#2020-21-7)
+    - [Biomedical Electronics](#biomedical-electronics)
+      - [2020-21](#2020-21-8)
+    - [Electrical Energy Systems](#electrical-energy-systems)
+      - [2020-21](#2020-21-9)
+    - [Microwave Technology](#microwave-technology)
+      - [2021-22](#2021-22-6)
+      - [2020-21](#2020-21-10)
+    - [Optoelectronics](#optoelectronics)
+      - [2020-21](#2020-21-11)
+    - [Semiconductor Devices](#semiconductor-devices)
+      - [2021-22](#2021-22-7)
 - [Spring Term](#spring-term)
   - [EE Modules](#ee-modules)
     - [Digital System Design](#digital-system-design)
-      - [2020-21](#2020-21-7)
-    - [Advanced Signal Processing](#advanced-signal-processing)
-      - [2020-21](#2020-21-8)
-    - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
-      - [2020-21](#2020-21-9)
-    - [High Level Programming](#high-level-programming)
-      - [2020-21](#2020-21-10)
-    - [Embedded Systems](#embedded-systems)
-      - [2020-21](#2020-21-11)
-    - [Deep Learning](#deep-learning)
       - [2020-21](#2020-21-12)
-    - [Instrumentation]
-      - [2020-21]
-    - [Power Electronics]
-      - [2020-21]
-      - []
-    - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
+    - [Advanced Signal Processing](#advanced-signal-processing)
       - [2020-21](#2020-21-13)
+    - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
+      - [2020-21](#2020-21-14)
+    - [High Level Programming](#high-level-programming)
+      - [2020-21](#2020-21-15)
+    - [Embedded Systems](#embedded-systems)
+      - [2020-21](#2020-21-16)
+    - [Deep Learning](#deep-learning)
+      - [2020-21](#2020-21-17)
     - [Robotic Manipulation](#robotic-manipulation)
-      - [2021-22]
-    - [Managing Engineering Projects (Management Stream Only)]
-      - [2021-22]
+    - [Instrumentation](#instrumentation)
+      - [2020-21](#2020-21-18)
+    - [Power Electronics](#power-electronics)
+      - [2020-21](#2020-21-19)
+    - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
+      - [2020-21](#2020-21-20)
+    - [Managing Engineering Projects](#managing-engineering-projects)
+      - [2021-22](#2021-22-8)
+    
+- [General Advice](#general-advice)
+  - [2021-22](#2021-22)
+  - [2020-21 (Pre Curiculum Rework)](#2020-21-pre-curiculum-rework)
+- [Industrial Placement Advice](#industrial-placement-advice)
+- [Autumn Term](#autumn-term)
+  - [EEE Modules](#eee-modules)
+    - [Communication Systems](#communication-systems)
+      - [2020-21](#2020-21)
+    - [Digital Signal Processing](#digital-signal-processing)
+      - [2020-21](#2020-21-1)
+    - [Control Engineering](#control-engineering)
+      - [2021-22](#2021-22-1)
+      - [2020-21](#2020-21-2)
+    - [Mathematics for Signals and Systems](#mathematics-for-signals-and-systems)
+      - [2021-22](#2021-22-2)
+      - [2020-21](#2020-21-3)
+    - [Artificial Intelligence](#artificial-intelligence)
+      - [2021-22](#2021-22-3)
+      - [2020-21](#2020-21-4)
+    - [Communication Networks](#communication-networks)
+      - [2021-22](#2021-22-4)
+      - [2020-21](#2020-21-5)
+    - [Machine Learning (EE)](#machine-learning-ee)
+      - [2021-22](#2021-22-5)
+      - [2020-21](#2020-21-6)
+    - [Analogue Integrated Circuits and Systems](#analogue-integrated-circuits-and-systems)
+      - [2020-21](#2020-21-7)
+    - [Biomedical Electronics](#biomedical-electronics)
+      - [2020-21](#2020-21-8)
+    - [Electrical Energy Systems](#electrical-energy-systems)
+      - [2020-21](#2020-21-9)
+    - [Microwave Technology](#microwave-technology)
+      - [2021-22](#2021-22-6)
+      - [2020-21](#2020-21-10)
+    - [Optoelectronics](#optoelectronics)
+      - [2020-21](#2020-21-11)
+    - [Semiconductor Devices](#semiconductor-devices)
+      - [2021-22](#2021-22-7)
+- [Spring Term](#spring-term)
+  - [EE Modules](#ee-modules)
+    - [Digital System Design](#digital-system-design)
+      - [2020-21](#2020-21-12)
+    - [Advanced Signal Processing](#advanced-signal-processing)
+      - [2020-21](#2020-21-13)
+    - [Real-Time Digital Signal Processing](#real-time-digital-signal-processing)
+      - [2020-21](#2020-21-14)
+    - [High Level Programming](#high-level-programming)
+      - [2020-21](#2020-21-15)
+    - [Embedded Systems](#embedded-systems)
+      - [2020-21](#2020-21-16)
+    - [Deep Learning](#deep-learning)
+      - [2020-21](#2020-21-17)
+    - [Robotic Manipulation](#robotic-manipulation)
+    - [Instrumentation](#instrumentation)
+      - [2020-21](#2020-21-18)
+    - [Power Electronics](#power-electronics)
+      - [2020-21](#2020-21-19)
+    - [Principles of Classical and Modern Radar Systems](#principles-of-classical-and-modern-radar-systems)
+      - [2020-21](#2020-21-20)
+    - [Managing Engineering Projects](#managing-engineering-projects)
+      - [2021-22](#2021-22-8)
 
 <div style="page-break-after: always;"></div>
 
@@ -208,6 +267,31 @@ wrecked by the exam because I didn’t revise enough. You definitely need to put
 actual content isn’t too bad. I also had to cram all of maths for signals but it was helpful even for 4th
 year stuff😊 - Simi
 
+### Mathematics for Signals and Systems
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
+
+#### 2021-22
+The module is not hard and it would be a great choice if you just want to get some good grades. The content is almost repeating.
+
+
+Pretty standard but pretty neat module, if you are EIE/EEE, your 2nd year Mathematics (Mathematics for Engineers II) module literally has the copied and pasted notes from this module, so overlap is an understatement, this is the linear algebra part of your course copied over word for word, no exaggeration, (SVD, Fundemental Subspaces, Diagonalization, Eigenvalues and Eigenvectors, etc) so if you banged that out in 2nd year, this one is a good one to take for some guaranteed marks. The exam varies little year on year but this year we had more curveballs probably due to the online-setting. For any topics where you lack understanding use the 2nd year notes it will help more, or use the Gil Strang youtube videos. Although as updated advice for those using the new EE course I whole-heartedly just suggest going over your old notes and lectures from 2nd year because that helped me more than actually attending the lectures did. There is a lot of hidden value in this module though because a lot of the concepts you pick up and refine end up being heavily utilised in optimization, as well as ML (particularly with convolutional neural networks), honestly just take it to fill in one of your mandated EE slots if you’re like me and have a preference for the DoC modules. - Aryan
+
+
+Nice professor in my opinion. UTAs/GTAs are really useful too on edStem so this module flowed really
+well. Yeah as Aryan covered above, most of the content is just the same as that in 2nd Year. - Nelson
+
+#### 2020-21
+Get watching those Gil Strang YouTube vids early! That really made all the difference come exam time. There are a lot of shortcuts and tricks with linear algebra. If you try and use the slides alone you will fill a lot more pages and be prone to error.
+
+
+The lectures don't cover much content compared to any other modules so do practice examples a lot. Hence I also suggest to get a linear algebra book to get more detail and learn the tricks of how to do things. The exam was allright in my opinion covers mostly what has been covered and there are quite a few past exam papers. This module is essential to quite a few others.
+
+
+Do watch Gil Strang's lectures before the start of the term. He covers the course quite quickly, so it doesn't leave too much room to understand the material. In addition he tend to be more focused on the application of linear algebra, rather then the math. But this is third year, so there is the expectation that your math is pretty good. In sum do yourself a favour and spend two weeks prior to term watching Gil Strangs, so you can understand his lectures. Also for tls(not covered by Gil strangs) you might consider watching this video on youtube: Pillai "Ax= b, Least Squares (LS) & Total Least Squares (TLS)".
+
+
+As everyone else has probably mentioned, start watching Gilbert Strang’s lecturers before the start of term and get the textbook (borrow it from the library- it has at least 10 copies). Dragotti’s slides do not help you pick up the techniques you need to solve linear algebra problems, because they focus more on applications. The way to do well is to study the techniques on your own using GIlbert’s resources, or anything else you may find useful, and then go over Dragotti’s slides to check understanding and learn how to tackle more application-oriented problems. Dragotti is quite happy to answer questions, so it is worth asking him if you’re stuck with anything.
+
 ### Artificial Intelligence
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60004&s=J3#start)**
 
@@ -283,31 +367,6 @@ and the forum were a great help too. - Aaman
 
 
 Did not go to a single lecture and was absolutely fine. I read the book and the extension to it. Oh wait I’ll attach it. http://amlbook.com/ which is the learning from data book. If you read that and some of the ebook chapters on the website, you’ll be fine. He even has video lectures (Caltech I think). It is quite maths and theory involved. Always great to look for other sources online no matter what module you’re taking. Very good and useful module for the CV – Simi
-
-### Mathematics for Signals and Systems
-**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
-
-#### 2021-22
-The module is not hard and it would be a great choice if you just want to get some good grades. The content is almost repeating.
-
-
-Pretty standard but pretty neat module, if you are EIE/EEE, your 2nd year Mathematics (Mathematics for Engineers II) module literally has the copied and pasted notes from this module, so overlap is an understatement, this is the linear algebra part of your course copied over word for word, no exaggeration, (SVD, Fundemental Subspaces, Diagonalization, Eigenvalues and Eigenvectors, etc) so if you banged that out in 2nd year, this one is a good one to take for some guaranteed marks. The exam varies little year on year but this year we had more curveballs probably due to the online-setting. For any topics where you lack understanding use the 2nd year notes it will help more, or use the Gil Strang youtube videos. Although as updated advice for those using the new EE course I whole-heartedly just suggest going over your old notes and lectures from 2nd year because that helped me more than actually attending the lectures did. There is a lot of hidden value in this module though because a lot of the concepts you pick up and refine end up being heavily utilised in optimization, as well as ML (particularly with convolutional neural networks), honestly just take it to fill in one of your mandated EE slots if you’re like me and have a preference for the DoC modules. - Aryan
-
-
-Nice professor in my opinion. UTAs/GTAs are really useful too on edStem so this module flowed really
-well. Yeah as Aryan covered above, most of the content is just the same as that in 2nd Year. - Nelson
-
-#### 2020-21
-Get watching those Gil Strang YouTube vids early! That really made all the difference come exam time. There are a lot of shortcuts and tricks with linear algebra. If you try and use the slides alone you will fill a lot more pages and be prone to error.
-
-
-The lectures don't cover much content compared to any other modules so do practice examples a lot. Hence I also suggest to get a linear algebra book to get more detail and learn the tricks of how to do things. The exam was allright in my opinion covers mostly what has been covered and there are quite a few past exam papers. This module is essential to quite a few others.
-
-
-Do watch Gil Strang's lectures before the start of the term. He covers the course quite quickly, so it doesn't leave too much room to understand the material. In addition he tend to be more focused on the application of linear algebra, rather then the math. But this is third year, so there is the expectation that your math is pretty good. In sum do yourself a favour and spend two weeks prior to term watching Gil Strangs, so you can understand his lectures. Also for tls(not covered by Gil strangs) you might consider watching this video on youtube: Pillai "Ax= b, Least Squares (LS) & Total Least Squares (TLS)".
-
-
-As everyone else has probably mentioned, start watching Gilbert Strang’s lecturers before the start of term and get the textbook (borrow it from the library- it has at least 10 copies). Dragotti’s slides do not help you pick up the techniques you need to solve linear algebra problems, because they focus more on applications. The way to do well is to study the techniques on your own using GIlbert’s resources, or anything else you may find useful, and then go over Dragotti’s slides to check understanding and learn how to tackle more application-oriented problems. Dragotti is quite happy to answer questions, so it is worth asking him if you’re stuck with anything.
 
 ### Analogue Integrated Circuits and Systems
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60003&s=T3#start)**
@@ -446,6 +505,11 @@ Didn’t watch a single lecture and still got a decent grade. - Daryl
 
 Not a very hard module if you can learn stuff yourself. You really don’t have to go to the lectures I think but it’s good to give your day routine. The Google Colab stuff was actually fun and machine learning helped. Use the feedback in the interim report because they like you to explain stuff in a certain way. Do not think you can leave the report last minute, I tried this and almost failed the module so make sure you leave time to run simulations, write up and format. Also split up the notebook running between mates and computers if you can. – Simi
 
+### Robotic Manipulation
+**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60030&s=J3#start)**
+
+**This module was introduced in 2021-22**
+
 ### Instrumentation
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60018&s=T3#start)**
 
@@ -465,11 +529,6 @@ Great module to learn more about switch mode power supplies. I was remote so it 
 
 #### 2020-21
 Really good module, would highly recommend the module. The content is challenging but explained well, and Manikas and the GTAs provide excellent support. The coursework is on MATLAB, and whilst challenging is certainly doable. I would advise doing Manikas’ Comms module in Autumn term – its not necessary but will help a lot. (EEE)
-
-### Robotic Manipulation
-**Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60030&s=J3#start)**
-
-**This module was introduced in 2021-22**
 
 ### Managing Engineering Projects
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60020&s=D3#start)**
