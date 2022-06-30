@@ -209,7 +209,7 @@ another one. - MG
 The module was interesting and I enjoyed being able to pretty much learn from the book but I got
 wrecked by the exam because I didn’t revise enough. You definitely need to put in the work but the
 actual content isn’t too bad. I also had to cram all of maths for signals but it was helpful even for 4th
-year stuff😊 - Simi
+year stuff😊 - Simi (EEE)
 
 ### Mathematics for Signals and Systems
 **Imperial Module Page: [here](http://intranet.ee.ic.ac.uk/electricalengineering/eecourses_t4/course_content.asp?c=ELEC60021&s=J3#start)**
@@ -310,7 +310,7 @@ I’d say if you want to do well in this module, you cannot rely on lectures/lec
 and the forum were a great help too. - Aaman
 
 
-Did not go to a single lecture and was absolutely fine. I read the book and the extension to it. Oh wait I’ll attach it. http://amlbook.com/ which is the learning from data book. If you read that and some of the ebook chapters on the website, you’ll be fine. He even has video lectures (Caltech I think). It is quite maths and theory involved. Always great to look for other sources online no matter what module you’re taking. Very good and useful module for the CV – Simi
+Did not go to a single lecture and was absolutely fine. I read the book and the extension to it. Oh wait I’ll attach it. http://amlbook.com/ which is the learning from data book. If you read that and some of the ebook chapters on the website, you’ll be fine. He even has video lectures (Caltech I think). It is quite maths and theory involved. Always great to look for other sources online no matter what module you’re taking. Very good and useful module for the CV – Simi (EEE)
 
 
 ## DoC Modules
@@ -427,7 +427,7 @@ Honestly I really enjoyed this module. Take it if you want to be a better progra
 Some people say this module is tough. I honestly don’t think it is once you understand what functional programming is all about - so try to do that. F# is a very productive language to work with – it’s easy to debug, the code looks beautiful and it’s...well, high level. In comparison, I find C++ rather stressful as you need to keep track of the variables you’ve declared...F# is just functions! As JZ mentions, it can improve your ability as a programmer. I recommend checking the module out to see if it is for you. – Aaman (EIE)
 
 
-The final coursework is kinda hard but really rewarding. Dr Tom Clarke is amazing but he’s still Dr Tom Clarke so it’s a really independent-learning module. It is still worth asking him or the GTAs for any help. Get the worksheets in early and try to ace the timed programming segment to put you in the best position for the final coursework. That one can be hard. The struggle of this project is picking a great group in my opinion as the workload is hefty at the end when you have a bunch of other deadlines but I was pretty lucky. If you like programming, it is really interesting learning functional programming so I would encourage taking it. - Simi
+The final coursework is kinda hard but really rewarding. Dr Tom Clarke is amazing but he’s still Dr Tom Clarke so it’s a really independent-learning module. It is still worth asking him or the GTAs for any help. Get the worksheets in early and try to ace the timed programming segment to put you in the best position for the final coursework. That one can be hard. The struggle of this project is picking a great group in my opinion as the workload is hefty at the end when you have a bunch of other deadlines but I was pretty lucky. If you like programming, it is really interesting learning functional programming so I would encourage taking it. - Simi (EEE)
 
 
 Functional programming moves basic programming ideas to the compiler. Overheads such as creating looping iterators are removed, so you don’t need (for int i=0; …..) anymore and can write more high-level, concise code. It is a great skill to have and even Python supports it. If you can follow the worksheets that Tom Clarke has prepared you are definitely set to ace the coursework. Coursework’s workload may not be evenly distributed among your team so make sure you voice out your concerns to the GTA’s or to Tom Clarke as early as possible if such situation is happening.
@@ -454,7 +454,7 @@ Just use the Collab notebook, you can even get a headstart by cloning the previo
 Didn’t watch a single lecture and still got a decent grade. - Daryl
 
 
-Not a very hard module if you can learn stuff yourself. You really don’t have to go to the lectures I think but it’s good to give your day routine. The Google Colab stuff was actually fun and machine learning helped. Use the feedback in the interim report because they like you to explain stuff in a certain way. Do not think you can leave the report last minute, I tried this and almost failed the module so make sure you leave time to run simulations, write up and format. Also split up the notebook running between mates and computers if you can. – Simi
+Not a very hard module if you can learn stuff yourself. You really don’t have to go to the lectures I think but it’s good to give your day routine. The Google Colab stuff was actually fun and machine learning helped. Use the feedback in the interim report because they like you to explain stuff in a certain way. Do not think you can leave the report last minute, I tried this and almost failed the module so make sure you leave time to run simulations, write up and format. Also split up the notebook running between mates and computers if you can. – Simi (EEE)
 
 
 ### Robotic Manipulation
