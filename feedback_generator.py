@@ -82,7 +82,6 @@ class FeedbackGenerator:
             with open(old_feedback_path, 'r') as in_file:
                 curr_module = None
                 while line := in_file.readline():
-                    out_file.write(line)
                     module_regex_match = re.search(r'(?<=^### )[A-Za-z ()]*$', line)
                     if module_regex_match:
                         curr_module = module_regex_match.group(0)
@@ -97,6 +96,8 @@ class FeedbackGenerator:
                             print(f'[INFO] Wrote feedback for {curr_module}')
                             self._write_feedback(out_file, year, feedback[curr_module])
                             feedback.pop(curr_module)
+
+                    out_file.write(line) # Write current line back
         print(f'[INFO] Finished generating formatting feedback, the updated feedback file can be found at {dest_feedback_path}')
         if feedback:
             print(f'[WARNING] Could not find existing feedback for the following modules: {list(feedback.keys())}')
@@ -176,4 +177,4 @@ class FeedbackGenerator:
             if single_feedback[field]:
                 out_file.write(f'**{field}**\n\n')
             for resp in single_feedback[field]:
-                out_file.write(f'{resp} (EIE)\n\n\n')
+                out_file.write(f'{resp}\n\n\n')
